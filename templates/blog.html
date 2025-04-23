@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Blog</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0073e6, #004a99);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease;
+            font-style: italic;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: 300;
+            animation: fadeInUp 1s ease;
+            font-style: italic;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            gap: 30px;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 3;
+        }
+
+        /* Blog Post */
+        .blog-post {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .blog-post img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .blog-post h2 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #0073e6;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .blog-post a {
+            display: inline-block;
+            background: #0073e6;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .blog-post a:hover {
+            background: #005bb5;
+            transform: translateY(-2px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            flex: 1;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar h3 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #0073e6;
+            font-style: italic;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .sidebar ul li a:hover {
+            color: #0073e6;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            .blog-post h2 {
+                font-size: 22px;
+            }
+
+            .sidebar {
+                order: -1; /* Move sidebar to the top on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>School Blog</h1>
+        <p>Stay updated with the latest news, events, and insights from our school.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Main Blog Content -->
+        <div class="main-content">
+            <!-- Blog Post 1 -->
+            <div class="blog-post">
+                <img src="/static/images/image28.jpeg" alt="Blog Post 1">
+                <h2>10 Tips for Effective Online Learning</h2>
+                <p>Online learning has become an integral part of education. Here are 10 tips to help students make the most of their online learning experience.</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-post">
+                <img src="/static/images/download (2).jpeg" alt="Blog Post 2">
+                <h2>How to Prepare for Exams: A Student's Guide</h2>
+                <p>Exams can be stressful, but with the right preparation, you can ace them. Check out our guide to effective exam preparation.</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-post">
+                <img src="/static/images/download (3).jpeg" alt="Blog Post 3">
+                <h2>The Importance of Extracurricular Activities</h2>
+                <p>Extracurricular activities play a vital role in a student's overall development. Learn why they are important and how to get involved.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Academic Tips</a></li>
+                <li><a href="#">Student Life</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Extracurriculars</a></li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">10 Tips for Effective Online Learning</a></li>
+                <li><a href="#">How to Prepare for Exams: A Student's Guide</a></li>
+                <li><a href="#">The Importance of Extracurricular Activities</a></li>
+            </ul>
+
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+</body>
+</html>

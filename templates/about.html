@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our School</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0073e6, #004a99);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in-out;
+            font-style: italic;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: 300;
+            animation: fadeIn 3s ease-in-out;
+            font-style: italic;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Section Styling */
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        section h2 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: #0073e6;
+            text-align: center;
+            font-style: italic;
+        }
+
+        section p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        /* Mission and Vision Section */
+        .mission-vision {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .mission-vision div {
+            flex: 1 1 45%;
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .mission-vision h3 {
+            font-size: 24px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #004a99;
+        }
+
+        /* History Section */
+        .history {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: baseline;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .history img {
+            flex: 1 1 300px;
+            max-width: 50%;
+            border-radius: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .history img:hover {
+            transform: scale(1.05);
+        }
+
+        .history p {
+            flex: 1 1 60%;
+        }
+
+        /* Faculty Section */
+        .faculty {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .faculty-member {
+            flex: 1 1 300px;
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .faculty-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .faculty-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .faculty-member h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .faculty-member p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Facilities Section */
+        .facilities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .facility {
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .facility:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .facility img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .facility h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .facility p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .testimonial {
+            flex: 1 1 300px;
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .testimonial p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .testimonial h4 {
+            font-size: 16px;
+            font-weight: 500;
+            color: #004a99;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-info div {
+            flex: 1 1 300px;
+            background: #f1f1f1;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact-info h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .history, .faculty, .facilities, .contact-info, .mission-vision, .testimonials {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>About Our School</h1>
+        <p>Discover our mission, vision, history, and the dedicated team that makes our school exceptional.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Mission and Vision Section -->
+        <section>
+            <h2>Our Mission & Vision</h2>
+            <div class="mission-vision">
+                <div>
+                    <h3>Mission</h3>
+                    <p>Our mission is to provide a nurturing and inclusive learning environment that empowers students to achieve academic excellence, develop character, and become responsible global citizens.</p>
+                </div>
+                <div>
+                    <h3>Vision</h3>
+                    <p>Our vision is to be a leading educational institution that inspires lifelong learning, innovation, and positive contributions to society.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section>
+            <h2>Our History</h2>
+            <div class="history">
+                <img src="/static/images/image3.jpg" alt="School Building">
+                <p>Founded in 1990, our school has a rich history of academic excellence and community involvement. Over the years, we have grown into a leading institution, known for our commitment to quality education and holistic development.</p>
+            </div>
+        </section>
+
+        <!-- Faculty Section -->
+        <section>
+            <h2>Our Faculty</h2>
+            <div class="faculty">
+                <div class="faculty-member">
+                    <img src="/static/images/image15.jpeg" alt="Faculty Member 1">
+                    <h3>Mr. John Doe</h3>
+                    <p>Principal</p>
+                </div>
+                <div class="faculty-member">
+                    <img src="/static/images/image16.jpeg" alt="Faculty Member 2">
+                    <h3>Ms. Jane Smith</h3>
+                    <p>Head of Academics</p>
+                </div>
+                <div class="faculty-member">
+                    <img src="/static/images/image17.jpeg" alt="Faculty Member 3">
+                    <h3>Mr. Michael Johnson</h3>
+                    <p>Head of Sports</p>
+                </div>
+                <div class="faculty-member">
+                    <img src="/static/images/image18.jpeg" alt="Faculty Member 4">
+                    <h3>Ms. Sarah Williams</h3>
+                    <p>Head of Arts</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section>
+            <h2>Our Facilities</h2>
+            <div class="facilities">
+                <div class="facility">
+                    <img src="/static/images/image5.jpeg" alt="Library">
+                    <h3>Library</h3>
+                    <p>A well-stocked library with a wide range of books, journals, and digital resources.</p>
+                </div>
+                <div class="facility">
+                    <img src="/static/images/image19.jpeg" alt="Science Lab">
+                    <h3>Science Lab</h3>
+                    <p>State-of-the-art laboratories for hands-on learning in science and technology.</p>
+                </div>
+                <div class="facility">
+                    <img src="/static/images/image6.jpg" alt="Sports Ground">
+                    <h3>Sports Ground</h3>
+                    <p>Spacious sports facilities for football, basketball, athletics, and more.</p>
+                </div>
+                <div class="facility">
+                    <img src="/static/images/image20.jpeg" alt="Art Room">
+                    <h3>Art Room</h3>
+                    <p>A creative space for students to explore their artistic talents.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section>
+            <h2>What People Say About Us</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="/static/images/image21.jpeg" alt="Student 1">
+                    <p>"This school has been a second home to me. The teachers are supportive, and the facilities are excellent!"</p>
+                    <h4>- John, Alumni</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="/static/images/image22.jpeg" alt="Parent 1">
+                    <p>"I am impressed by the school's focus on holistic development. My child has grown so much here."</p>
+                    <h4>- Sarah, Parent</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="/static/images/image22.jpeg" alt="Alumni 1">
+                    <p>"The school prepared me well for college and beyond. I am grateful for the opportunities I received."</p>
+                    <h4>- Michael, Alumni</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>Email</h3>
+                    <p>learnzone@gmail.com</p>
+                </div>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+254-799-753-504</p>
+                </div>
+                <div>
+                    <h3>Address</h3>
+                    <p>123 School Street, City, Country</p>
+                </div>
+            </div>
+            <button style="margin-top: 20px; padding: 10px 20px; background: #0073e6; color: white; border: none; border-radius: 5px; cursor: pointer;">Schedule a Visit</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+     
+    </footer>
+</body>
+</html>

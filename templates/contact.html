@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #0073e6, #004a99);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s ease;
+            font-style: italic;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: 300;
+            animation: fadeInUp 1s ease;
+            font-style: italic;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            flex: 2;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            font-size: 26px;
+            font-weight: 100;
+            margin-bottom: 20px;
+            color: #0073e6;
+        }
+
+        .contact-form label {
+            display: block;
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #0073e6;
+            outline: none;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .contact-form button {
+            background: #0073e6;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background: #005bb5;
+            transform: translateY(-2px);
+        }
+
+        /* Contact Info */
+        .contact-info {
+            flex: 1;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #0073e6;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .contact-info ul {
+            list-style: none;
+        }
+
+        .contact-info ul li {
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .contact-info ul li i {
+            margin-right: 10px;
+            color: #0073e6;
+        }
+
+        /* Google Map */
+        .map {
+            margin-top: 30px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+
+            .contact-form,
+            .contact-info {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Reach out to us for any inquiries or feedback.</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Feel free to reach out to us via phone, email, or by visiting our campus.</p>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 School Street, City, Country</li>
+                <li><i class="fas fa-phone"></i>+254-799-753-504</li>
+                <li><i class="fas fa-envelope"></i>PRECIDENCY UNIVERSITY@gmail.com</li>
+            </ul>
+
+            <!-- Google Map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d144.9537353153166!3d-37.816279742021665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d2d2b2e4a1b5!2sSchool%20Name!5e0!3m2!1sen!2sus!4v1633023226787!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

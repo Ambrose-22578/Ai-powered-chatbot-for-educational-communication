@@ -1,0 +1,2836 @@
+{
+    "intents":[
+  {
+    "tag": "greeting",
+    "patterns": [
+       "Hi",
+       "Hii",
+       "Hiii",
+       "Helloo",
+       "helllo",
+       "Hi there",
+       "Is anyone there?",
+       "Hello",
+       "Good day",
+       "What's up",
+       "hay",
+       "how are ya",
+       "whats up",
+       "heyy",
+       "whatsup",
+       "watsup",
+       "Hi there, can you help me with something?",
+       "Hello! I have a question. Can you assist me?",
+       "Hey, I need your help with something.",
+       "Good morning/afternoon/evening! Can you answer a question for me?",
+       "Greetings! I need your assistance with something.",
+       "Hi,can you provide me with some information?",
+       "Hello, can you help me with a task?",
+       "Hey,I'm looking for some guidance. Can you help?",
+       "Good day! Can you assist me with a query?",
+       "Hi,I would like to ask you a question.",
+       "Hello",
+       "Hey there",
+       "Hi",
+       "Greetings",
+       "Good morning",
+       "Good afternoon",
+       "Good evening",
+       "Salutations",
+       "Howdy",
+       "Yo",
+       "Hiya",
+       "hai",
+       "What's up",
+       "Sup",
+      "Hola",
+      "Bonjour",
+       "Ciao",
+       "Konnichiwa",
+       "Namaste",
+       "Salaam",
+       "Shalom",
+       "Good day",
+       "Pleasure to chat with you",
+       "It's great to talk with you",
+       "Hi chatbot",
+       "Hello chatbot",
+       "Hey chatbot",
+       "What's new",
+       "How's it going",
+       "What's happening",
+       "What can you do for me",
+       "How can I assist you",
+       "Can you help me",
+       "I need your help",
+       "I have a question",
+       "I'm here to chat",
+       "Let's talk",
+       "What's on your mind",
+       "What are you capable of doing",
+       "What brings you here"
+    ],
+    "responses": [
+       "Hello!",
+       "Hi there, how can I help?",
+       "Greetings, how may i help you?",
+       "Good day, what brings you here?",
+       "Howdy, what's on your mind?",
+       "Yo, what can I do for you?",
+       "Hey there, how may I assist you?",
+       "Welcome, what can I help you with?",
+       "Nice to meet you, how may I be of assistance?",
+       "Pleasure to chat with you, what can I do for you?",
+       "I'm a VikBot, how can I help you today?",
+       "My name is VikBot , what can I do for you?",
+       "I'm here to help, what can I assist you with?",
+       "What's up, how may I assist you today?",
+       "Hi, how can I be of service?",
+       "Good to see you, what can I help you with?",
+       "Hi there, what brings you to me?",
+       "I'm here to answer your questions, what would you like to know?",
+       "How may I be of assistance to you today?",
+       "Hi, what can I do for you today?",
+       "What can I help you with today?",
+       "I'm here to chat with you, what would you like to talk about?",
+       "How may I assist you in solving your problem?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi, how can I make your day better?",
+       "What can I do to assist you today?",
+       "I'm here to listen to you, what can I help you with?",
+       "Hi there, how may I assist you with your inquiry?",
+       "I'm here to answer your questions, what would you like to know",
+       "What can I help you with today?",
+       "I'm here to make your life easier, how can I assist you?",
+       "How can I help you today?",
+       "I'm here to make things easier for you, what can I do for you?",
+       "Hi, how can I assist you today?",
+       "What's on your mind, how may I assist you today?",
+       "How may I assist you in resolving your issue?",
+       "I'm here to assist you, what can I do for you today?",
+       "Hi there, what can I help you with?",
+       "How may I be of service to you today?",
+       "I'm here to assist you with your needs, what can I do for you?",
+       "How can I make your day better today?",
+       "I'm here to make things easier for you, what can I help you with?",
+       "Hi there, how may I assist you in solving your problem?",
+       "What can I help you with today",
+       "I'm here to help you out, what can I do for you?",
+       "How may I be of assistance today?",
+       "I'm here to provide answers to your questions, what would you like to know?",
+       "Hi, how can I help you today?",
+       "How may I assist you in achieving your goals?"
+    ],
+    "context_set": "greeting"
+ },
+ 
+ {
+ "tag": "greeting1",
+ "patterns":[
+ "hi how are you",
+ "hai,hw r u",
+ "how r u",
+ "how are u",
+ "hru",
+ "hw are u",
+ "kaise ho",
+ "hengidiya",
+ "hello how are you",
+ "How are you doing",
+ "How's your day going",
+ "How's life treating you",
+ "How's everything"
+ ],
+   "responses":[
+    "Hello i am good ,how can i help you?",
+    "I am good,how may i help you?",
+    "I am good,what can i do for you?",
+    "Good, thank you for asking,how can i help you?"
+   ]
+ },
+ 
+  {
+    "tag": "goodbye",
+    "patterns": [
+       "bye",
+       "Thank You",
+       "Talk to you later",
+       "Ttyl",
+       "I got to go",
+       "gtg",
+       "Goodbye!",
+       "See you later!",
+       "Bye-bye!",
+       "Adios!",
+       "Later!",
+       "Catch you later!",
+       "Talk to you soon!",
+       "Until next time!",
+       "Take care!",
+       "Peace out!",
+       "See ya!",
+       "Have a good one!",
+       "So long!",
+       "Farewell!",
+       "Bye for now!",
+       "It's been great chatting with you!",
+       "Have a nice day!",
+       "Have a great weekend!",
+       "Stay safe!",
+       "Have a wonderful day!",
+       "It was nice talking to you!",
+       "Talk to you later",
+       " I'll see you around!",
+       "Goodnight",
+       "Take it easy!",
+       "Thanks for the chat!",
+       "Have a splendid day!",
+       "Enjoy the rest of your day!",
+       "Have a productive day!",
+       "I'll be back later!",
+       "All the best!",
+       "Bye, bot!",
+       "Have a pleasant evening!",
+       "Cheers!",
+       "Happy chatting!",
+       "Have a fabulous day!",
+       "Keep up the good work!",
+       "Have a good one, chatbot!",
+       "Until we meet again!",
+       "Have a restful evening!",
+       "Have a lovely day!",
+       "It's been a pleasure talking to you!",
+       "Wishing you all the best!",
+       "Take care, chatbot!",
+       "Have a safe trip!",
+       "See you on the flip side!",
+       "Good luck with everything!",
+       "See you soon!",
+       "Have a great day ahead!",
+       "Until next time,see you",
+       "i want to go",
+       "i want to leave",
+       "i want to quit",
+       "i want to exit",
+       "i want to end",
+       "i want to stop",
+       "i want to close",
+       "i want to finish",
+       "i need to go",
+       "i need to leave",
+       "i need to quit",
+       "i need to exit",
+       "i need to end",
+       "i need to stop",
+       "i need to close",
+       "i need to finish",
+       "i have to go",
+       "i have to leave",
+       "i have to quit",
+       "i have to exit",
+       "i have to end",
+       "i have to stop",
+       "i have to close",
+       "i have to finish",
+       "i have to leave",
+       "i have to quit"
+    ],
+    "responses": [
+       "Sad to see you go :(",
+       "Talk to you later",
+       "bye!",
+       "Come back soon"
+    ],
+    "context_set": "ending conversation"
+ },
+  {
+    "tag": "creator",
+    "patterns": [
+       "what are the name of your developers",
+       "what are the name of your creators",
+       "who created you",
+       "your developers",
+       "your creators",
+       "who are your developers",
+       "developers",
+       "you are made by",
+       "you are made by whom",
+       "who created you",
+       "who create you",
+       "who created u",
+       "creators",
+       "who made you",
+       "who designed you",
+       "Who are responsible for your existence?",
+       "Who brought you to life?",
+       "Who invented you?",
+       "Who programmed you?",
+       "Who built you?",
+       "Who are the mastermind behind your creation?",
+       "Who are behind your development?",
+       "Who are the brains behind you?",
+       "Who are the genius that made you?",
+       "Who are the people that created you?",
+       "Who are your inventors?",
+       "Who is your maker?",
+       "Who are your designers?",
+       "Who are your developers?",
+       "Who are your architects?",
+       "Who is the mind behind your creation?"
+    ],
+    "responses": [
+       "Team FORGE of presidency university.For more details go through the <a target=\"blank\" href=\"https://adil200.github.io/Forge/\">Lin</a> here. "
+    ],
+    "context_set": "creators,developers"
+ },
+ 
+ {
+    "tag":"feedback",
+    "patterns":[
+       "feedback",
+       "how to give feedback",
+       "how to give feedback to you",
+       "how to give feedback to your developers",
+       "how to give feedback to your creators",
+       "feedback form",
+       "feedback form link",
+       "feedback form link for you",
+       "feedback form link for your developers",
+       "how can I give you feedback",
+       "how can I give feedback to you",
+       "how can I give feedback to your developers",
+       "feedback",
+       "review",
+       "how to give review",
+       "how to give review to you"
+    ],
+    "responses":[
+       "You can give feedback by clicking on the <a target=\"blank\" href=\"https://h84jd1vue3l.typeform.com/to/n5ue518L\">feedback form</a> here."
+    ]
+ },
+ 
+ {
+    "tag":"no",
+    "patterns":[
+       "no",
+       "yes"
+    ],
+    "responses":[
+       "well...be more specific so that i can help you."
+    ]
+ },
+ {
+    "tag":"gender",
+    "patterns":[
+       "what is your gender",
+       "whats ur  gender",
+       "are you a boy",
+       "are u a boy",
+       "are you a girl",
+       "are u a girl",
+       "gender?",
+       "boy?",
+       "girl",
+       "ur gender",
+       "your gender",
+       "how are u identified as",
+       "hw r u identified as",
+       "what about  ur gender",
+       "what  about your gender"
+    ],
+    "responses":[
+       "Well! I am an AI, i dont have any gender.I am neutral."
+    ]
+ },
+ {
+    "tag":"cleanliness",
+    "patterns":[
+       "what about the cleanliness of college",
+       "cleanliness of college",
+       "about cleanliness of university",
+       "is college clean in every matter"
+    ],
+    "responses":[
+       "Our university have plenty of cleaning staffs to maintain the cleanliness in and around the college."
+    ]
+ },
+ {
+    "tag":"lost",
+    "patterns":[
+       "I have  lost my ID what to do",
+       "I lost something which belongs to me",
+       "lost",
+       "I cant find my Id it is lost"
+    ],
+    "responses":[
+       "You can find your lost things/belongings at main gate security desk."
+    ]
+ },
+  {
+    "tag":"name",   
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you",
+       "How may I address you",
+       "Can you introduce yourself",
+       "Tell me about yourself",
+       "What is your real name?",
+       "What is your real name please?",
+       "What's your real name?",
+       "Tell me your real name?",
+       "Your real name?",
+       "Your real name please?",
+       "Your real name please?",
+       "Who are you"
+    ],
+    "responses": [
+       "You can call me VikBot.",
+       "I'm VikBot",
+       "I am a VikBot",
+       "I am your helper,VikBot",
+       "hello,you can call me VikBot,how can i help you?",
+       "hello,my name is VikBot,what can i do for you?",
+       "hello,my name is VikBot,how may i help you?",
+       "hello,i am VikBot,how may i help you?",
+       "My name is VikBot",
+       "VikBot",
+       "My real name is VikBot" 
+    ],
+    "context_set": "tags, name,"
+ },
+ {
+    "tag": "breaks",
+    "patterns": [
+       "what are the breaks",
+       "what are the breaks timings",
+       "What is the duration of lunch breaks at college?",
+       "breaks",
+       "what are the breaks",
+       "what are the breaks in college",
+       "what are the breaks in college timing",
+       "what are the breaks in college hours",
+       "what are the breaks in college schedule",
+       "what are the breaks in college time",
+       "what are the breaks in college timings"
+    ],
+    "responses":[
+       "there are 2 breaks in college timing, one is for lunch and other is for tea",
+       "2 breaks are there in college timing, one is for lunch and other is for tea",
+       "two breaks namely lunch and tea are there in college timing"
+ 
+    ],
+    "context_set": "breaks"
+ },
+  {
+    "tag": "hours",
+    "patterns": [
+       "timing of college",
+       "what is college timing",
+       "when are you guys open",
+       "what are your hours",
+       "hours of operation",
+       "when is the college open",
+       "college timing",
+       "what about college timing",
+       "tell something about college timing",
+       "what is the college  hours",
+       "when should i come to college",
+       "when should i attend college",
+       "what is my college time",
+       "college timing",
+       "timing college",
+       "working days",
+       "is college open on saturday",
+       "What is the schedule for classes?",
+       "How long is the college open on weekends?", 
+       "Are there any specific hours for the college's administrative offices?",
+       "What time does the college close?"
+    ],
+       
+     "responses": [
+       "College is open from 8am-5pm Monday-Saturday!",
+       "College timings is very flexible, it depends on the course you are taking. However, we are open from 8am-5pm Monday-Saturday!"
+    ],
+    
+ 
+    "context_set": "timings"
+ },
+ {
+    "tag":"library",
+    "patterns":[
+       "Are there any specific hours for the library?",
+       "What time does the library close?",
+       "Is there any difference in library hours during holidays or breaks?",
+       "is there any library",
+       "library facility",
+       "library facilities",
+       "do you have library",
+       "does the college have library facility",
+       "college library",
+       "where can i get books",
+       "book facility",
+       "Where is library",
+       "Library",
+       "Library information",
+       "Library books information",
+       "Tell me about library",
+       "How many libraries does the college have?",
+       "how many libraries"
+    ],
+    "responses":[
+       "Library is open from 8am-5pm Monday-Saturday!",
+       "you can visit the library from 8am-5pm Monday-Saturday!",
+       "There is one huge and spacious library.timings are 8am to 5pm and for more details visit <a target=\"blank\" href=\"https://presidencyuniversity.in/facility/library/\">here</a>",
+      "library is open during college hours and is closed on sundays!" 
+    ],
+    "context_set":"library timings"  
+ },
+ {
+    "tag":"free-time",
+    "patterns":[
+       "When do the extracurricular activities take place?",
+       "What extracurricular activities can I pursue?",
+       "Is there any flexibility in the college hours for students with part-time jobs?"
+    ],
+    "responses":[
+          "yes there is flexibility in college hours for students with part-time jobs and also We have sports facilities, literary club, cultural club, Editorial club, and many other activities you can take part in. Take a round of our campus facilities in the website",
+          "yes you can join extracurricular activities during your free time! and also you can work part-time and We have sports facilities, literary club, cultural club, Editorial club, and many other activities you can take part in. Take a round of our campus facilities in the website"
+    ],
+    "context_set":"free time"
+ },
+ {
+    "tag":"details",
+    "patterns":[
+       "Can you provide information about evening classes?",
+       "Can you provide details about the college's online class schedule?",
+       "online classes",
+       "evening class"
+    ],
+    "responses":[
+       "As corona is no more a threat, we have resumed our offline-classes in the college! and also we have cancelled our evening classes!"
+  ],
+    "context_set":"details"
+ },
+  {
+    "tag": "number",   
+    "patterns": [
+       "more info",
+       "contact info",
+       "how to contact college",
+       "college telephone number",
+       "college number",
+       "What is your contact no",
+       "Contact number?",
+       "how to call you",
+       "College phone no?",
+       "how can i contact you",
+       "Can i get your phone number",
+       "how can i call you",
+       "phone number",
+       "phone no",
+       "call"
+    ],
+    "responses": [
+       "You can contact at: 0799753504 and for Admission Enquiry you can contact us at:0799753504"
+ 
+    ],
+    "context_set": "contacts"
+ },
+  {
+    "tag": "course",
+    "patterns": [
+       "list of courses",
+       "list of courses offered",
+       "list of courses offered in",
+       "what are the courses offered in your college?",
+       "courses?",
+       "courses offered",
+       "courses offered in (your univrsity(UNI) name)",
+       "courses you offer",
+       "branches?",
+       "courses available at UNI?",
+       "branches available at your college?",
+       "what are the courses in UNI?",
+       "what are branches in UNI?",
+       "what are courses in UNI?",
+       "branches available in UNI?",
+       "can you tell me the courses available in UNI?",
+       "can you tell me the branches available in UNI?",
+       "Are there any specialized programs or concentrations within majors at UNI?",
+       "Can you provide me with a course catalog for UNI?",
+       "What is the duration of the courses at UNI?",
+       "What are the courses offered at Presidency University?",
+       "offred",
+       "courses offred"
+    ],
+    "responses": [
+       "Our university offers Information Technology, computer science and Engineering and their alied branches, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering.It also offers BBA,MBA,LAW courses too. However you can check all the courses available in the college website.",
+       "our university provides various cources and the duration of courses varies. For detailed information you can check out college website.Thank you"
+    ],
+    "context_set": "courses"
+ },
+ {
+    "tag":"majors and minors",
+    "patterns":[
+       "What majors does UNI offer?",
+       "majors?",
+       "What are the majors offered at UNI?",
+       "What are the majors offered at your college?",
+       "What are the majors offered in UNI?",
+       "majors"
+    ],
+    "responses":[
+       "our university provides 3 types of BBA majors and for more details check college website. For more details you can check college website.Thank you"
+    ],
+    "context_set":"majors-minors"
+ },
+ {
+    "tag":"certificate",
+    "patterns":[
+       "What certificate programs does UNI offer?",
+       "certificate programs?",
+       "What are the certificate programs offered at UNI?",
+       "What are the certificate programs offered at your college?",
+       "certificate programs",
+       "certificate"
+    ],
+    "responses":[
+       "Every course provided by the university will have a particular certificate to it and it may vary from course to course."
+    ],
+    "context_set":"certificate"
+ },
+ {
+    "tag":"branches",
+    "patterns":[
+       "computer", 
+       "computer science",
+       "computer science and engineering",
+       "Computer engineering?",
+       "it",
+       "IT",
+       "Information Technology",
+       "AI/Ml",
+       "Mechanical engineering",
+       "Chemical engineering",
+       "Civil engineering",
+       "extc Engineering",
+       "BBA",
+       "MBA",
+       "LAW"
+    ],
+    "responses":[
+       "yes, we do provide these courses in our university."
+    ],
+    "context_set":"branches"
+ },
+ {
+    "tag":"placements",
+    "patterns":[
+       "how to get placed in UNI?",
+       "how to get placed in your college?",
+       "how is the placements in UNI?",
+       "how is the placements in your college?",
+       "how is the placements in your univrsity ?",
+       "how is the placements in your university ?",
+       "placement probability in UNI?",
+       "placement probability in your college?",
+       "placement process",
+       "placement percentage",
+       "What is college placement",
+       "Which companies visit in college",
+       "What is average package",
+       "companies visit",
+       "package",
+       "About placement",
+       "placement",
+       "recruitment",
+       "placements",
+       "companies",
+       "higgest package",
+       "what is the highest package",
+       "what is the lowest package",
+       "what is the minimum package",
+       "starting package",
+       "minimum package",
+       "lowest package",
+       "average package",
+       "median package"
+    ],
+    "responses":[
+       "The university provides 100% placements for all the students who are eligible for placements.Many companies visit the university for placements.The average package is 5.5 lakhs per annum and the highest package is 12 lakhs per annum.",
+       "The university provides 100% placements for all the students who are eligible for placements and the placement percentage is 90% and the placement training is provided by the university itself.The average package is 5.5 lakhs per annum and the highest package is 12 lakhs per annum.",
+       "The university provides 100% placements for all the students who are eligible for placements and the placement percentage is 90%.The average package is 5.5 lakhs per annum and the highest package is 12 lakhs per annum."
+       
+    ],
+    "context_set":"placements"
+ },
+ {
+    "tag":"criteria",
+    "patterns":[
+       "Are there any placement exams required for certain courses at UNI?",
+       "What are the minimum GPA requirements for courses at UNI?",
+       "What are the minimum GPA requirements for courses at your college?",
+       "What are the minimum GPA requirements for courses at UNI?",
+       "Criteria for placements?",
+       "Criteria for placements in UNI?",
+       "Criteria for placements in your college?",
+       "placements criteria?",
+       "placements criteria in UNI?",
+       "placements criteria in your college?",
+       "placements criteria in your univrsity ?",
+       "placements reqirements"
+       
+    ],
+    "responses":[
+       "Every cources in the university requires minimum of 8cgpa to sit for placements."
+    ],
+    
+    "context_set":"criteria"
+ },
+ {
+    "tag":"abroad",
+    "patterns":[
+       "Are there any study abroad programs or international courses offered at UNI?",
+       "How does UNI support student success in their courses?",
+       "abroad programs?",
+       "i need to go to abroad for my studies",
+       "i want to go to abroad for my studies",
+       "i want to go to abroad for my higher studies",
+       "i want to go abroad",
+       "abroad",
+       "abroad studies",
+       "Are you all collaborated with foreign University?",
+       "higher studies",
+       "What kind of academic resources or support services are available to students taking courses at UNI?"
+    ],
+    "responses":[
+       "The university had signed up with many abroad universities and companies andthrough this it supports the students to achieve their goals."
+    ],
+    "context_set":"abroad"
+ },
+ {
+    "tag":"extra",
+    "patterns":[
+       "Can students take courses outside of their major at UNI?"
+ 
+    ],
+    "responses":[
+       "No ,but the students can finish their respective course and then later take the course they are intrested in."
+    ]
+ },
+  {
+    "tag": "fees",
+    "patterns": [
+       "information about fee",
+       "information on fee",
+       "tell me the fee",
+       "college fee",
+       "fee per semester",
+       "what is the fee of each semester",
+       "what is the fees of each year",
+       "what is fee",
+       "what is the fees",
+       "how much is the fees",
+       "fees for first year",
+       "fees",
+       "about the fees",
+       "tell me something about the fees",
+       "fee structure",
+       "fee structure of the college",
+       "fee structure of the university",
+       "What is the fee structure at Presidency University via KMAT exam?"
+      
+    ],
+    "responses": [
+       "For Fee detail visit <a target=\"_blank\" href=\"https://epay.federalbank.co.in/easypayments/MakeEcollnPayment.aspx\"> here</a>"
+    ],
+    "context_set": "fees"
+ },
+ {
+    "tag": "hostel fees",
+    "patterns":[
+       "hostel fees",
+       "fees for AC room",
+       "fees for non-AC room",
+       "fees for Ac room for girls",
+       "fees for non-Ac room for girls",
+       "fees for Ac room for boys",
+       "What is the fees of hostel",
+       "fees for non-Ac room for boys"
+    ],
+    "responses":[
+       "For hostel fees detail visit <a target=\"_blank\" href=\"https://presidencyuniversity.in/campus/hostel/\"> here</a>"
+    ],
+ 
+    "context_set": "hostel fees"
+ },
+  {
+    "tag": "location",
+    "patterns": [
+       "where is the college located",
+       "college is located at",
+       "where is college",
+       "where is college located",
+       "address of college",
+       "how to reach college",
+       "college location",
+       "college address",
+       "wheres the college",
+       "how can I reach college",
+       "whats is the college address",
+       "what is the address of college",
+       "address",
+       "location"
+    ],
+    "responses": [
+       "you can click the link for exact location <a target=\"_blank\" href=\"https://goo.gl/maps/kDxj8SAaBPMPCZdR8\">click here</a>"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "hostel",
+    "patterns": [
+       "hostel facility",
+       "hostel servive",
+       "hostel location",
+       "hostel address",
+       "hostel facilities",
+       "Does college provide hostel",
+       "Is there any hostel",
+       "Where is hostel",
+       "do you have hostel",
+       "do you guys have hostel",
+       "hostel",
+       "hostel capacity",
+       "how to get in hostel",
+       "what is the hostel address",
+       "how far is hostel from college",
+       "hostel college distance",
+       "where is the hostel",
+       "how big is the hostel",
+       "Are the hostel charges included in the tuition fee?",
+       "distance between college and hostel",
+       "distance between hostel and college"
+    ],
+    "responses": [
+       "For hostel detail visit our page <a target=\"_blank\" href=\"https://presidencyuniversity.in/campus/hostel/\">click here</a>",
+       "You can check our hostel detail <a target=\"_blank\" href=\"https://presidencyuniversity.in/campus/hostel/\">click here</a>"
+    ],
+    "context_set": "hostel details"
+ },
+  {
+    "tag": "event",
+    "patterns": [
+       "events organised",
+       "list of events",
+       "list of events organised in college",
+       "list of events conducted in college",
+       "What events are conducted in college",
+       "Are there any event held at college", 
+       "Events?",
+       "functions",
+       "what are the events",
+       "tell me about events",
+       "what about events"
+    ],
+    "responses": [
+       "we conduct the biggest fest called INVINCIA every year and many other events are conducted throughout the year. For more information visit our page <a target=\"_blank\" href=\"https://presidencyuniversity.in/campus-life/\">click here</a>"
+    ],
+    "context_set": "events"
+ },
+  {
+    "tag": "document",
+    "patterns": [
+       "document to bring",
+       "documents needed for admision",
+       "documents needed at the time of admission",
+       "documents needed during admission",
+       "documents required for admision",
+       "documents required at the time of admission",
+       "documents required during admission",
+       "What document are required for admission",
+       "Which document to bring for admission",
+       "documents",
+       "what documents do i need",
+       "what documents do I need for admission",
+       "documents needed",
+       "documents required",
+       "what documents are needed",
+       "what should i bring while coming for admission",
+       "what should i bring for admission",
+       "what is required for admission",
+       "what is needed for admission",
+       "reequired documents for admission",
+       "Do I have to submit the Original Document to the University and when can I get that back?"
+    ],
+    "responses": [
+    "For admissions basic documents are required like 10th and 12th marksheet, transfer certificate, caste certificate, income certificate, Aadhar card, passport size photo, etc.Your original documents will be retained by the University until the completion of your course. We will however give you an acknowledgement for your original documents.For more information visit our page <a target=\"_blank\" href=\"https://presidencyuniversity.in/apply-now/\">click here</a>"
+    ],
+    "context_set": "documents"
+ 
+ },
+  {
+    "tag": "floors",
+    "patterns": [
+       "size of campus",
+       "building size",
+       "How many floors does college have",
+       "floors in college",
+       "floors in college",
+       "how tall is UNI's College of Engineering college building",
+       "floors",
+       "how big is the college",
+       "how is the college  campus",
+       "What is the total area of the college campus?",
+       "What is the square footage of the largest building on campus?",
+       "How many academic buildings are on campus?",
+       "How many residence halls are there on campus?",
+       "What is the capacity of the largest lecture hall on campus?",
+       
+       "What is the size of the sports facilities on campus?",
+       "How many parking lots are available on campus?",
+       "What is the size of the college's outdoor recreation areas?",
+       "How many laboratories does the college have?",
+       "What is the size of the college's largest auditorium?",
+       "How many classrooms are there on campus?",
+       "What is the size of the college's largest dining hall?",
+       "What is the capacity of the college's largest performance venue?",
+       "How many computer labs are available on campus?",
+       "What is the size of the college's largest conference room?",
+       "How many administrative buildings are on campus?",
+       "What is the size of the college's largest art studio?",
+       "How many research centers are affiliated with the college?",
+       "What is the size of the college's largest fitness center?",   
+         "how is college infrastructure",
+       "infrastructure",
+       "college infrastructure",
+      "infrastructure",
+      "upgradation",
+      "land area of presidency",
+      "land area university",
+      "campus land area",
+      "campus land size",
+      " campus land infra"
+ ],
+    "responses": [
+       "Our college is spread over 64 acres of land and and seperate building for each department. each block has 5 floors. The infrastructure is very good.Campus is clean. Good IT Labs With Good Speed of Internet connection. The state-of-the-art campus facilities comprises academic block, library complex, computer center, Faculty block and admin wing. In addition to this, common facilities such as the 600 seat- am phi theatre. It also houses sports ground, Cafeteria ad mess facilities catering to more than 10,000/- students at preset.      For more information visit our page <a target=\"_blank\" href=\"https://presidencyuniversity.in/facility/computer-lab/\">click here</a>"],
+    "context_set": "infrastructure"
+ },
+  {
+    "tag": "syllabus",
+    "patterns": [
+       "Syllabus for IT",
+       "what is the Information Technology syllabus",
+       "syllabus",
+       "timetable",
+       "what is IT syllabus",
+       "syllabus",
+       "What is next lecture",
+       "syllabus structure",
+       "what is the syllabus",
+       "what is the syllabus of IT",
+       "what is the syllabus of Information Technology",
+       "What are the core topics covered in an Information Technology syllabus?",
+       "How is the Information Technology syllabus structured?",
+       "What is the duration of the Information Technology program syllabus?",
+       "What are the prerequisites for enrolling in the Information Technology syllabus?",
+       "What are the elective courses available in the Information Technology syllabus?",
+       "What is the typical class schedule for the Information Technology syllabus?",
+       "What are the required textbooks for the Information Technology syllabus?",
+       "What is the grading policy for the Information Technology syllabus?",
+       "What is the final project or capstone requirement in the Information Technology syllabus?",
+       "What is the average class size for the Information Technology syllabus?",
+       "What are the learning outcomes of the Information Technology syllabus?",
+       "What is the pace of the Information Technology syllabus?",
+       "What are the different assessments in the Information Technology syllabus?",
+       "What is the level of difficulty of the Information Technology syllabus?",
+       "What are the job opportunities after completing the Information Technology syllabus?",
+       "What is the focus of the Information Technology syllabus?",
+       "What are the software programs or tools covered in the Information Technology syllabus?",
+       "What is the project-based work involved in the Information Technology syllabus?",
+       "What are the skills students will learn by completing the Information Technology syllabus?"
+          ],
+    "responses": [
+          "The syllabus booklet and ppt are available at college website and even shared to students via mail and whatsapp. For more information about this you can check here <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+    ],
+    "context_set": "syllabus"
+ },
+ 
+  {
+    "tag": "canteen",
+    "patterns": [
+       "food facilities",
+       "canteen facilities",
+       "canteen facility",
+       "is there any canteen",
+       "Is there a cafetaria in college",
+       "Does college have canteen",
+       "Where is canteen",
+       "where is cafetaria",
+       "canteen",
+       "Food",
+       "Cafetaria",
+       "What are the hours of operation for the college canteen?",
+       "What types of cuisine are available at the college canteen?",
+       "Are there any vegetarian or vegan options available at the college canteen?",
+       "What is the average cost of a meal at the college canteen?",
+       "Are there any special promotions or deals offered at the college canteen?",
+       "Is the college canteen open during holidays or breaks?",
+       "What are the seating options available at the college canteen?",
+       "Is the college canteen open to the public or only to students and staff?",
+       "Are there any private dining areas available at the college canteen?",
+       "What are the payment options available at the college canteen?",
+       "Are there any vending machines available on campus for snacks and drinks?",
+       "Are there any food trucks or pop-up restaurants on campus?",
+       "What are the busiest time at the college canteen?",
+       "What are the health and safety protocols in place at the college canteen?",
+       "What are the hygiene and cleanliness standards of the college canteen?",
+       "Is there a student-run or student-managed food service on campus?",
+       "Are there any international cuisine options available at the college canteen?",
+       "Are there any restrictions on bringing food from outside into the college campus?",
+       "What is the seating capacity of the college canteen?",
+       "What are the most popular dishes or menu items at the college canteen?"
+    ],
+    "responses": [
+       "Yes, we have 2-3 canteen in college. It is open from 8:00 am to 4:00 pm. It serves a variety of food items. Every cafeteria has a seating capacity of 100 students and the price of food is very reasonable. For more information about this you can check here <a target=\"_blank\" href=\"https://presidencyuniversity.in/facility/cafeteria/\">click here</a>"
+    ], 
+    "context_set": "cafeteria"
+ },
+  {
+    "tag": "menu",
+    "patterns": [
+       "food menu",
+       "food in canteen",
+       "Whats there on menu",
+       "what is available in college canteen",
+       "what foods can we get in college canteen",
+       "food variety",
+       "What is there to eat?",
+       "What is there to eat in college canteen?",
+       "Are there any daily specials or rotating menu items in the college canteen?",
+       "What are the breakfast options available at the college canteen?",
+       "Are there any healthy eating options available in the college canteen?",
+       "What are the snack options available at the college canteen?",
+       "What are the dessert options available at the college canteen?",
+       "What are the drinks available at the college canteen?",
+       "Are there any gluten-free or allergy-friendly options available in the college canteen?",
+       "Are there any seasonal menu items or ingredients used in the college canteen?",
+       "Are there any special event menus or theme days in the college canteen?",
+       "What are the most popular menu items at the college canteen?",
+       "Are there any fusion or international menu items available in the college canteen?",
+       "Are there any vegetarian or vegan menu items available in the college canteen?",
+       "What are the serving sizes of the menu items at the college canteen?",
+       "Are there any customized or made-to-order menu items available in the college canteen?",
+       "Are there any meal deals or value options available in the college canteen?",
+       "What are the food preparation and cooking methods used in the college canteen?",
+       "Are there any local or organic ingredients used in the college canteen?",
+       "What is the pricing range of the menu items at the college canteen?",
+       "What are the most unique or creative menu items at the college canteen?",
+       "Are there any student favorites or recommended menu items at the college canteen?"
+    ],
+    "responses": [
+       "As there are 2-3 cafeterias in college,the menu is different in each cafeteria.You can have different varieties of food in each cafeteria and everything is in reasonable price. For accurate information pleace visit the speecific cafeteria in college" 
+    ],
+    "context_set": "menu"
+ },
+  {
+    "tag": "hod",
+    "patterns": [
+       "Who is HOD",
+       "Where is HOD",
+       "it hod",
+       "name of it hod","Who is computer HOD",
+       "Where is computer HOD",
+       "computer hod",
+       "name of computer hod",
+       "Who is extc HOD",
+       "Where is  extc HOD",
+       "extc hod",
+       "name of extc hod",
+       "Who is civil HOD",
+       "Where is civil HOD",
+       "civil hod",
+       "name of civil hod",
+       "Who is mech HOD",
+       "Where is mech HOD",
+       "mech hod"
+    ],
+    "responses": [
+       "Well! Every branch has different HOD. You can check the name of HOD in your branch or it is mentioned in your timetable"
+    ],
+    "context_set": "hod"
+ },
+  
+  {
+    "tag": "Dean",
+    "patterns": [
+       "what is the name of dean",
+       "what is the dean name",
+       "dean name",
+       "Who is college dean",
+       "Where is dean's office",
+       "dean",
+       "name of dean"
+    ],
+    "responses": [
+       "Dr. Md Sameeruddin khan is the college dean and his office is in the ground floor of college building. you can visit his office anytime"
+    ],
+    "context_set": "dean"
+ },
+  {
+    "tag": "sem",
+    "patterns": [
+       "exam dates",
+       "exam schedule",
+       "When is semester exam",
+       "Semester exam timetable",
+       "sem",
+       "semester",
+       "exam",
+       "when is exam",
+       "exam timetable",
+       "exam dates",
+       "when is semester",
+       "exam shedule",
+       "exam dates"
+    ],
+    "responses": [
+    "Different programs have exam on different dates. You can check your exam dates in your timetable or you can check it on college website"
+    ],
+    
+    "context_set": "sem"
+ },
+  {
+    "tag": "admission",
+    "patterns": [
+       "what is the process of admission",
+       "what is the admission process",
+       "How to take admission in your college",
+       "What is the process for admission",
+       "admission",
+       "admission process",
+       "process for admission",
+       "process of admission",
+       "admission procedure",
+       "procedure for admission",
+       "procedure of admission",
+       "admission procedure",
+       "What is the admission process for IT",
+       "how to apply",
+       "application",
+       "What is the admission process for computer"
+    ],
+    "responses": [
+       "Admission process can be done thorugh online and offline whichever you are comfortable with. For more admission related query checkout the link <a target=\"_blank\" href=\"https://presidencyuniversity.in/apply-now/\">click here</a>"
+ ],
+    "context_set": "admission"
+ },
+    {
+    "tag": "scholarship",
+    "patterns": [
+       "scholarship",
+       "Is scholarship available",
+       "scholarship engineering",
+       "scholarship it",
+       "scholarship ce",
+       "scholarship mechanical",
+       "scholarship civil",
+       "scholarship chemical",
+       "scholarship for AI/ML",
+       "available scholarships",
+       "scholarship for computer engineering",
+       "scholarship for IT engineering",
+       "scholarship for mechanical engineering",
+       "scholarship for civil engineering",
+       "scholarship for chemical engineering",
+       "list of scholarship",
+       "comps scholarship",
+       "IT scholarship",
+       "mechanical scholarship",
+       "civil scholarship",
+       "chemical scholarship",
+       "automobile scholarship",
+       "first year scholarship",
+       "second year scholarship",
+       "third year scholarship",
+       "fourth year scholarship",
+       "scholarship for first year",
+       "scholarship for second year",
+       "scholarship for third year",
+       "scholarship for fourth year",
+       "scholarship for first year engineering",
+       "scholarship for second year engineering",
+       "scholarship for third year engineering",
+       "scholarship for fourth year engineering",
+       "scholarship for first year engineering students",
+       "scholarship for second year engineering students",
+       "scholarship for third year engineering students",
+       "scholarship for fourth year engineering students",
+       "Can I avail of any scholarships for my study?",
+       "scholarship",
+       "study scholarship"
+    ],
+    "responses": [
+       "Many government scholarships are supported by our university. For details and updates visit this link <a target=\"_blank\" href=\"https://presidencyuniversity.in/scholarship-2/\">click here</a>"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "facilities",
+    "patterns": [
+       "What facilities college provide",
+       "College facility",
+       "What are college facilities",
+       "facilities",
+       "facilities provided"
+    ],
+    "responses": [
+       "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen and many more facilities. For more details visit this link <a target=\"_blank\" href=\"https://presidencyuniversity.in/facility/\">click here</a>"
+    ],
+    "context_set": "other facilities"
+ },
+  {
+    "tag": "college intake",
+    "patterns": [
+       "max number of students",
+       "number of seats per branch",
+       "number of seats in each branch",
+       "maximum number of seats",
+       "maximum students intake",
+       "What is college intake",
+       "how many stundent are taken in each branch",
+       "seat allotment",
+       "seats",
+       "number of seats",
+       "number of students",
+       "number of students per branch",
+       "number of students in each branch",
+       "number of students in each department",
+       "intake",
+       "intake of students",
+       "intake of students per branch",
+       "intake of students in each branch",
+       "intake of students in each department",
+       "how many students  in each branch",
+       "total number of students",
+       "total number of students per branch",
+       "total number of students in each branch",
+       "total number of students in each department"
+    ],
+    "responses": [
+       "our college intake is 300 students per branch and there are varity of branches in our college.And the total intake of students is 3000."
+    ],
+    "context_set": "total intake"
+ },
+  {
+    "tag": "uniform",
+    "patterns": [
+       "college dress code",
+       "college dresscode",
+       "what is the uniform",
+       "can we wear casuals",
+       "Does college have an uniform",
+       "Is there any uniform",
+       "uniform",
+       "what about uniform",
+       "do we have to wear uniform",
+       "what is the dress code",
+       "what is the dresscode",
+       "what is the dress code for college",
+       "What is the attire expected in college?",
+       "Are there any clothing restrictions in college?",
+       "Can we wear shorts and flip flops to college?",
+       "Is there a specific dress code for different courses in college?",
+       "What is the policy on revealing clothing in college?",
+       "Do we have to wear formal attire to college events?",
+       "Is there a dress code for online classes in college?",
+       "What are the consequences of not following the college dress code?",
+       "What is the general consensus on dressing up for college classes?",
+       "Are there any exceptions to the college dress code for religious or cultural reasons?"
+    ],
+    "responses": [
+         "our university has a dress code for students.No shorts or revealing clothes are allowed in college.Students should be in formals. For more details visit this link <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2022/08/STUDENT-HANDBOOK.pdf\">click here</a>"
+    ],
+    
+   
+    "context_set": "dress code"
+ },
+  {
+    "tag": "committee",
+    "patterns": [
+       "what are the different committe in college",
+       "different committee in college",
+       "Are there any committee in college",
+       "Give me committee details",
+       "committee",
+       "how many committee are there in college",
+       "clubs",
+       "what are the clubs in college",
+       "different clubs in college",
+       "Are there any clubs in college",   
+       "Give me club details",
+       "how many clubs are there in college",
+       "what are the different clubs in college",
+       "committees",
+       "what are the committees in college",
+       "different committees in college",
+       "Are there any committees in college","What is the role of committees in college?",
+       "How are the committee members selected in college?",
+       "Can students form their own committees in college?",
+       "What is the process for joining a committee in college?",
+       "Are there any committees specifically for student welfare in college?",
+       "How do committees contribute to the college community?",
+       "What is the difference between a committee and a club in college?",
+       "Are there any committees focused on extracurricular activities in college?",
+       "Do committees have any say in decision-making in college?",
+       "What is the hierarchy of committees in college?"
+ 
+    ],
+    "responses": [
+       "There are many committees and clubs  are there in our college.There are clubs like dance, music, photography, etc. For more details about clubs and committees visit this link <a target=\"_blank\" href=\"https://dsa.presidencyuniversity.in/\">click here</a>"
+    ],
+    "context_set": "committees and clubs"   
+ },
+  {
+    "tag": "random",
+    "patterns": [
+       "I love you",
+       "Will you marry me",
+       "Do you love me",
+       "Are you single",
+       "Are you married",
+       "i wanna live  with you",
+       "i wanna marry you",
+       "i wanna date you",
+       "i want to date you",
+       "will you be my valentine",
+       "can you be with me?",
+       "i want u"
+    ],
+    "responses": [
+       "I am sorry,I can't do that.I am just a bot and I am here to help you with your queries.Thank you"
+    ],
+    "context_set": "random"
+ },
+  {
+    "tag": "swear",
+    "patterns": [
+       "fuck",
+       "bitch",
+       "shut up",
+       "hell",
+       "Nothing",
+       "Neural",
+       "abdg",
+       "asdfgh",
+       "neurology",
+       "lkjhgfd",
+       "thj",
+       "xfy",
+       "yddyfkf",
+       "sky",
+       "chutiya",
+       "bhfo",
+       "stupid",
+       "idiot",
+       "dumb ass",
+       "asshole",
+       "fucker",
+       "fucking",
+       "bsdk",
+       "what the hell",
+       "wtf",
+       "what the fuck",
+       "fuck you",
+       "fuck behenchod",
+       "i wanna fuck you",
+       "land",
+       "mc",
+       "bc",
+       "madarchod",
+       "teri maa ki",
+       "lowde",
+       "behen ke lowde",
+       "porn",
+       "milf",
+       "dick",
+       "hell",
+       "fuck off",
+       "fuck",
+       "twat",
+       "shit"
+ 
+ 
+   ],
+    "responses": [
+       "Sorry, I didn't understand that. Can you please try again.",
+       "Sorry, I am not yet feeded to respond to this. Please try another question."
+    ],
+    "context_set": "swear"
+ },
+  {
+    "tag": "vacation",
+    "patterns": [
+       "holidays",
+       "when will semester starts",
+       "when will semester end",
+       "when is the holidays",
+       "list of holidays",
+       "Holiday in these year",
+       "holiday list",
+       "about vacations",
+       "about holidays",
+       "When is vacation",
+       "When is holidays",
+       "how long will be the vacation",
+       "What are the scheduled breaks during the academic year?",
+       "Is there a fall break in college?",
+       "What are the dates for the winter break?",
+       "When does the spring semester start and end?",
+       "How long is the summer break in college?",
+       "Are there any national holidays observed by the college?",
+       "Are there any breaks during midterm exams in college?",
+       "What is the typical length of a holiday break in college?",
+       "Is there a difference in holiday schedules for different academic programs?",
+       "When can students expect to receive the holiday schedule for the upcoming academic year?"
+    ],
+    "responses": [
+       "As the college has many courses, the holiday schedule varies from course to course. usually the sem end  break is of 2 months. For more details regarding this you  can check our academic calender given in the  link <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+    ],
+    "context_set": "holidays"
+ },
+  {
+    "tag": "sports",
+    "patterns": [
+       "sports and games",
+       "give sports details",
+       "sports infrastructure",
+       "sports facilities",
+       "information about sports",
+       "Sports activities",
+       "please provide sports and games information",
+       "sports",
+       "What are the different sports teams at the college?",
+       "How can students get involved in college sports programs?",
+       "Are there any intramural sports leagues at the college?",
+       "What is the college's policy on sports scholarships?",
+       "Are there any sports facilities open to students outside of scheduled practice times?",
+       "What types of equipment are available for use in the college sports facilities?",
+       "Are there any recreational sports programs offered at the college?",
+       "What is the role of the college's sports department?",
+       "Are there any college-wide sports events or competitions throughout the year?",
+       "What is the level of competition for the college's sports teams?"
+    ],
+    "responses": [
+       "Our university encourages all-round development of students and hence provides sports facilities in the campus.There are many courts in our university such as basketbal court,throwball and vollyball court,football court and many more.And  we do have many indore games too. For more details visit<a target=\"_blank\" href=/\"https://presidencyuniversity.in/facility/sports-facility/\">click here</a>"
+    ],
+    "context_set": "sports"
+ },
+  {
+    "tag": "salutaion",
+    "patterns": [
+       "okk",
+       "okie",
+       "nice work",
+       "well done",
+       "good job",
+       "thanks for the help",
+       "Thank You",
+       "its ok",
+       "Thanks",
+       "Good work",
+       "k",
+       "ok",
+       "okay",
+       "Thank you for your assistance.",
+       "Thank you for your help.",
+       "Thank you for your time.",
+       "Thank you for your patience.",
+       "Thank you for your support.",
+       "oh ok",
+       "ohk",
+       "oh okay",
+       "ohkay",
+       "Thanks, bye",
+       "Thanks for the help, goodbye",
+       "Thank you, bye",
+       "Thank you, goodbye",
+       "Thanks goodbye",
+       "Thanks good bye",
+       "ok"
+    ],
+    "responses": [
+       "I am glad I helped you",
+       "welcome, anything else i can assist you with?",
+       "Bye! Come back again soon."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag":"ending",
+    "patterns":[
+       "no"
+    ],
+    "responses":[
+       "well,goodbye",
+       "No problem, goodbye",
+       "Not a problem! Have a nice day"
+    ]
+ },
+  {
+    "tag": "task",
+    "patterns": [
+       "what can you do",
+       "what are the thing you can do",
+       "things you can do",
+       "what can u do for me",
+       "how u can help me",
+       "why i should use you",
+       "What abilities do you possess?",
+       "What are your capabilities?",
+       "What is your skill set?",
+       "What tasks can you accomplish?",
+       "How can you assist me?",
+       "In what ways can you aid me?",
+       "What advantages do you offer?",
+       "Why should I use your services?",
+       "How can you be of service?",
+       " What benefits can you provide?"
+    ],
+    "responses": [
+       "I can help you with your queries regarding college, and i can also help you with your admission process",
+       "You can ask me questions regarding college, and i will try to answer them and I can answer your queries"
+    ],
+    "context_set": "task"
+ },
+  {
+    "tag": "ragging",
+    "patterns": [
+       "ragging",
+       "is ragging practice active in college",
+       "does college have any antiragging facility",
+       "is there any ragging cases",
+       "is ragging done here",
+       "ragging against",
+       "antiragging facility",
+       "ragging juniors",
+       "ragging history",
+       "ragging incidents",
+       "Is ragging still prevalent in colleges?",
+       "What measures does the college have to prevent ragging?",
+       "Have there been any recent cases of ragging?",
+       "Is ragging a common practice at this college?",
+       "What actions are taken against those who rag?",
+       "Does the college have an anti-ragging committee?",
+       "How does the college handle ragging of juniors?",
+       "What is the history of ragging in colleges?",
+       "Can you provide any information on previous ragging incidents at this college?"
+    ],
+    "responses": [
+       "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging",
+       "Our college is a ragging free environment, and we have strict rules against ragging"
+    ],
+    "context_set": "ranging"
+ },
+ {
+    "tag":"college-humor",
+    "patterns":[
+       "what is your college name",
+       "what is the name of your college",
+       "What is the name of the institution you are from?",
+       "Can you tell me the name of your college?",
+       "Which college are you currently enrolled in?",
+       "What college are you from ?"
+    ],
+    "responses":[
+       "I am a bot, i dont go to college."
+    ],
+    "context_set":"humor"
+ },
+ {
+    "tag":"college-name",
+    "patterns":[
+       "what is the name of the college",
+       "What is the name of the educational establishment you work for?",
+       "Could you share the name of the college ?",
+       "What is the title of the university ?",
+       "What is the official name of the college?",
+       "May I know the name of your academic institution? ",
+       "What is the name of the university?",
+       "college name"
+    ],
+    "responses":[
+       "The name of the institution is Presidency University.",
+       "The name of the college is Presidency University.",
+       "The name of the university is Presidency University."
+    ],
+    "context_set":"college name"
+ },
+ {
+    "tag": "accreditation",
+    "patterns":["What accreditation/approvals do the courses offered by the Presidency University have?", "approvals","accreditation"],
+    "responses":["Presidency University, Karnataka is a private University established in Karnataka, under the Karnataka Act No 41 of 2013 (henceforth, to be known as Presidency University Act). The Government of Karnataka notified the Presidency University Act, 2013 to establish Presidency University in Karnataka State vide Gazette Notification dated 16th May, 2013. Presidency University is approved by AICTE (All India Council for Technical education), UGC (University Grants Commission), BCI (Bar Council of India).  We are also listed in AIU (Association of Indian Universities)."],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "NAAC",
+    "patterns":["What is NAAC grade?","naac","naac grade"],
+    "responses":["Our University was established in 2015, as per NAAC rule. They will accept an application in the year 2021."],
+    "context_set": ""
+ },
+ {
+    "tag": "awards",
+    "patterns":["Who awards the degree after completion of the course from Presidency University?",
+    "completion",
+    "awards",
+    "degree",
+    "awards the degree",
+    "who awards the degree after completion of the course",
+    "Who awards the degree after completion of the course from Presidency University"
+ 
+ ],
+    "responses":["After the completion of the course the degree is awarded by Deans and HOD's to students."],
+    "context_set": "awards"
+ },
+ {
+    "tag": "eligibility",
+    "patterns":["What are the eligibility criteria for enrolling for a course?",
+                "eligibility",
+                "eligibility criteria for enrolling for a course",
+                "course eligibility criteria",
+                "enrolling"],
+    "responses":["Each course has different eligibility criteria. Please visit the course page to know the eligibility criteria for the course you are interested in and for more information contact +91 9022092222"],
+    "context_set": "course eligibility"
+ },
+ 
+ {
+    "tag": "qualifying",
+    "patterns":["How important is the score in my qualifying examination to enroll for a course?",
+                "qualifying exam",
+                "qualifying examination",
+                "how can I enroll for university",
+                "How important is the score in my qualifying examination to enroll for a course?",
+                "examination",
+                "Can I apply for admission before I have the result for my qualifying examination?",
+                "qualifying examination",
+                "qualifying"
+             ],
+    "responses":["At Presidency University we admit students on the basis of merit. Admissions to some courses are based on all-India entrance test scores; for others, we consider the score in the qualifying Exam & Personal interview round.you can begin your application process before you get your final result. For courses where admissions are based on your scores, you need to submit your scores for the qualifying examination on or before the respective last date. For other courses, you need to submit only the proof of passing your qualifying examination at the time of counseling admission."
+ ],
+    "context_set": ""
+ },
+ {
+    "tag": "entrance test",
+    "patterns":["Can I get admission if i dont have any entrance test?",
+    "entrance test",
+    "test",
+    "entrance",
+    "entrance exam",
+    "exams required?",
+    "entrance exam required",
+    "entrance exam required?",
+    "entrance exam required for admission",
+    "entrance exam required for admission?",
+    "entrance exam required for admission in presidency university",
+    "Entrance Exams for different courses to be listed are:",
+    "entrence exams",
+    "pre exams",
+    "exams for entrance",
+    "entrence exams for courses",
+    "dont have entrance test"],
+    "responses":["That depends on the admission criteria for the course you have opted for. We require all candidates to fulfill the minimum eligibility requirements as listed on our eligibility criteria section."],
+    "context_set": ""
+ },
+ {
+    "tag": "application",
+    "patterns":["Can I apply to more than one course? Can I do it in a single application?"
+    
+    ],
+    "responses":["If the courses you have opted for fall in the same group, then by all means, go ahead and state your choices in one single application form. However, if you opt for courses in different program under separate school of discipline, then you need to fill out separate applications."],
+    "context_set": "application"
+ },
+ 
+ {
+    "tag": "Personal Interview",
+    "patterns":["How and when are the results of the Personal Interview announced?",
+    "When and how will the results of the personal interview be made public?",
+    "When and how will the Personal Interview results be made public?",
+    "Please tell me about the Personal Interview test",
+    "what is the type of interview test",
+   "interview",
+    "campus interview"
+ ],
+    "responses":["Basically it is knowing the individual's capabilities in term of aptitude, academic preparedness, soft skills and all about yourself and the updated news in and around the world.We would get back to you within 3 working days in the form of mail, and also admissions team members would get in touch with you. You can also call the admission office at +91-9022092222 or mail us @ admission@presidencyuniversity.in.  Offer Letter will be sent to the successful candidates, giving necessary details."],
+    "context_set": "inteview"
+ },
+ {
+    "tag": "pay",
+    "patterns":[
+       "When do I need to pay admission / tuition fee?",
+       "when to pay admission fee",
+       "when should I pay admission fee"
+ ],
+    "responses":["The first year fees are paid as per the schedule shared in the provisional admission letter. Initially the registration amount to be made as per the date given, followed by the next installments amounts to be paid."],
+    "context_set": "pay"
+ },
+ {
+    "tag": "capitation",
+    "patterns":[
+             "Is there a capitation fee?",
+             "captition fee",
+             "capitation",
+             "should I pay capitation fee",
+             "Is there a capitation fee?",
+             "capitation fees"
+          ],
+    "responses":["No, there is no capitation fee. You need to pay only the fees mentioned in the letter and the website."],
+    "context_set": "capitation"
+ },
+ {
+    "tag": "donation,management,reservation quota",
+    "patterns":[
+          "Do you have any management / reservation/ donation quota?",
+          "management quota",
+          "reservation quota",
+          "donation quota",
+          "management seats",
+          "donation",
+          "management seats",
+          "reservation seats",
+          "donation seats",
+          "management seats in presidency university",
+          "reservation seats in presidency university",
+          "donation seats in presidency university",
+          "is there any management quota in presidency university",
+          "is there any reservation quota in presidency university",
+          "is there any donation quota in presidency university",
+          "management seat "
+ ],
+    "responses":[
+          "yes,we do have 120 seats registered under management quota. For more information contact +91 9022092222"
+    ],
+    "context_set": "donation,management,reservation quota"
+ },
+ {
+    "tag": "Loan",
+    "patterns":["Can I get study Loan assistance?"],
+    "responses":["In the light of the current scenario, Presidency University has taken the initiative of arranging a Facility of availing Educational Loan, through a dedicated arrangement with a few FinTech Companies. Under this Scheme the University will absorb the interest-cost, with the Loan being repaid in ten [10] Monthly Instalments. Eligibility Conditions will apply. Please visit our website for further details or contact to +91 9022092222."],
+    "context_set": ""
+ },
+ {
+    "tag": "withdraw application",
+    "patterns":["If I choose to withdraw my application for admission, will I get a total refund?"],
+    "responses":["Refund of fee is as per our UGC refund Policy. Please contact the admission office for more details."],
+    "context_set": "withdraw application"
+ },
+ {
+    "tag": "accommodation",
+    "patterns":["Will I get hostel accommodation at the time of admission?",
+             "accommodation",
+             "accomodation",
+             "If in first-year,  Is it compulsory for me to avail of the hostel accommodation?",
+             "compulsory to avail hostel accommodation",
+             "accommodation"
+ ],
+    "responses":["Presidency University provides the option of off campus hostel facilities separate for boys and Girls and all students who opt for hostel accommodated based on the availability of the hostel. It is purely on first come first served basis.Hostel facility is optional.You can find out more about our hostel accommodation and rules & regulations on the website."],
+    "context_set": ""
+ },
+ {
+    "tag": "mess_fee",
+    "patterns":["Is the mess fee included in the hostel fees?","hostel fees","mess fee","food fee"],
+    "responses":["Yes, the mess charges are included in the hostel fee."],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "Industry_4.0",
+    "patterns":["What is Industry 4.0?"],
+    "responses":["Industry 4.0 is gathering impetus globally and many organizations are moving rapidly to reap the benefits of disruptive technological advances in Data Science, IoT, Artificial Intelligence, Deep Learning, Block-chain, Digital Fabrication and other emerging technologies. The digital transformation is also radically transforming business and the market place. There are immense opportunities in all business domains, services and industry sectors. These new opportunities will transform into volumes of new jobs created across various sectors, requiring differently skilled talent. The businessâ€™s that adopt Industry 4.0 will certainly leverage economic rewards, enrich society at large and respond to the global challenges of the environment and sustainability.","The Presidency University offers Industry-led Curriculum with strong Industry-Academia partnership. Relevant domain courses on applications of Analytics, Data Science, Block-chain and other technologies, with strong foundations in the core areas of management, will provide excellent learning opportunities for the students. The curriculum also embeds the experiential and skill-based learning to inculcate analytical and critical thinking ability, design thinking, and, develop practical perspectives as well as entrepreneurial talent.","The Presidency University offers Industry-led Curriculum with strong Industry-Academia partnership. Relevant domain courses on applications of Analytics, Data Science, Block-chain and other technologies, with strong foundations in the core areas of management, will provide excellent learning opportunities for the students. The curriculum also embeds the experiential and skill-based learning to inculcate analytical and critical thinking ability, design thinking, and, develop practical perspectives as well as entrepreneurial talent."],
+    "context_set": ""},
+ 
+    {
+       "tag": "skill_program",
+       "patterns":["What are the focus areas of the University?",
+       "focus",
+       "focus area"
+    ],
+       "responses":["Equipping the students with a strong knowledge base through most effective teaching-learning practise","Ensuring student-centric soft-skill and technical skill programs that will make them industry-ready","Ensuring student-centric soft-skill and technical skill programs that will make them industry-ready"],
+       "context_set": ""
+    },
+    {
+       "tag": "MBA_program",
+       "patterns":["What are the key features for MBA program?",
+       "MBA program",
+       "features of mba program"],
+       "responses":["Two-year Program offering Specialisation in employment-oriented Courses","Well diversified yet, very contemporary curriculum coupled with strong teaching-learning practices","Well diversified yet, very contemporary curriculum coupled with strong teaching-learning practices"],
+       "context_set": ""
+    },
+    {
+       "tag": "features of btech",
+       "patterns":["What is the key features program for B.Tech?",
+       "features of btech program",
+       "features of b.tech"
+    ],
+       "responses":["The first year builds strong foundation with basic courses in humanities, sciences, mathematics and engineering sciences.",
+                    "The core courses specific to the discipline are offered from the second year onwards.",
+                    "The core courses specific to the discipline are offered from the second year onwards."],
+       "context_set": ""
+    },
+    {
+       "tag": "Law_Program",
+       "patterns":["What is the key features program for Law Program?","features of law programs","law programs features","key features of law programs"],
+       "responses":["Honour program with 6 honour subject from 14 options with possibility of choosing contemporary law subjects and emerging law areas of new legislations like bankruptcy law, Financial inclusion law and Debt recovery","Our students can not only take up legal provision in the traditional manner of working in course and as an alternative work for legal firms.","Our students can not only take up legal provision in the traditional manner of working in course and as an alternative work for legal firms."],
+       "context_set": ""
+    },
+    {
+       "tag": "developments",
+       "patterns":["What are the new developments happening in the institution?",
+       "developments in uni",
+       "developments",
+       "development in university","presidency university developments",
+       "developments of presidency",
+       "development in institution",
+       "developments happening in university",
+       "institution developments",
+       "institution development"
+    ],
+       "responses":[
+            "Adoption of a dynamic curriculum which is modified immediately in response to the changing requirements of the Industry",
+            "Evaluation methodologies that are case driven exercises that derive solutions form the application of clear concepts",
+            "Evaluation methodologies that are case driven exercises that derive solutions form the application of clear concepts"],
+       "context_set": ""
+    },
+    {"tag": "BBA_course",
+    "patterns":["How is BBA course at Presidency University?"],
+    "responses":["The three year BBA degree programme is divided into six semesters and is designed as per the Choice Based Credit System &#40;CBCS&#41; model curriculum prescribed by UGC. It includes core papers, discipline specific electives, generic electives and skill enhancement courses. Discipline specific electives offered in the fifth and the sixth semesters are in the following streams: Finance, Marketing, Human Resource Management, Entrepreneurship, and Business Analytics. Students are required to undertake a micro project during the final semester. The programme focuses on developing the students and equipping them to meet the managerial challenges of the 21st century. The ability to work in teams is also focused upon as a key skill to be developed for success in the work-place. The programme also aims to develop the student independent thinking, decision making capability and research aptitude. Learning is enhanced through many pedagogical tools like case studies, presentations, internships, research projects, industrial visits, and guest lecturers from a pool of industry experts. Aimed at the holistic development of the students, the Department facilitates participation in various National and International fests. It also conducts many curricular and co curricular activities on a regular basis. Social responsibility is a thrust area and students are encouraged to participate in community development initiatives."],
+    "context_set": ""},
+    {
+       "tag": "KCET",
+       "patterns":[
+          "73,823 is my rank in KCET can I get seat in ECE r CSE in presidency university."],"responses":["The previous year cutoff for KCET in Presidency University Bangalore, for CSE at the end of round 2 was 58418 (For GM). So based on previous year scores, your admission might be difficult. But cut-offs vary every year based on several factors like the difficulty level of exam, Number of students appearing for the exam, Your category, etc."],"context_set": ""},
+    {
+       "tag": "apply",
+       "patterns":["How can I apply for batch 2021?"],
+       "responses":[
+          "No you can't apply for this batch as this batch is not running now."],"context_set": ""},
+    {
+       "tag": "Fees structure forensic",
+       "patterns":[
+          "Fees structure of m.com forensic accounting and corporate fraud"],
+          "responses":[
+             "It depends on the university and college ,it differ from college to college . Mainly it ranges between 40,000 to 3.5 lakhs, depend on college , facilities, location etc ."],
+             "context_set": ""
+          },
+    {
+       "tag": "application_form_B.Sc",
+       "patterns":[
+          "When will the application form for B.Sc release at Presidency University?"
+          ],
+          "responses":[
+             "The application form for PUBDET will be released in the first week of January and for PUMDET will be released in the last week of January."
+             ],
+             "context_set": ""
+    },
+    {
+       "tag": "KMAT",
+       "patterns":[
+          "What is the fee structure at Presidency University via KMAT exam?"
+          ],
+          "responses":[
+             "The Presidency University of Bangalore offers an MBA in six specializations. The fee for all six specializations is the same, and you can appear in either the KMAT XAT MAT or any other entrance exam such as the CAT for admission to the MBA course. The fee structure for the MBA course is as follows:1. The first-year tuition fee is Rs. 3 Lacs. 2. The total fee, excluding the admission fee, is Rs. 6 Lacs. 3. There may be some fee concession on the basis of your performance in the semester exam, but you won't get a fee concession at the time of admission to Presidency University."
+             ],
+             "context_set": ""
+ },
+    {
+       "tag": "cutoff for BBA LL.B",
+       "patterns":[
+          "I want to know about the latest cutoff information for BBA LL.B. (Hons.) at School of Law, Presidency University, Bangalore ."
+          ],
+          "responses":[
+             "45% in aggregate"
+             ],
+             "context_set": ""
+    },
+    {
+       "tag": "admission Biotechnology  M.Sc",
+       "patterns":["What is the admission process for M.Sc. Biotechnology in Presidency University?"
+       ],
+       "responses":[
+          "I am assuming you are referring to Presidency University, Kolkata, and not Presidency University, Bangalore, as it does not offer a M.Sc. In biotechnology. Presidency University, Kolkata, is a second major public research university in West Bengal. It offers admission to multiple post-graduate courses, including an M.Sc. In Biotechnology. To apply, you must fulfil the eligibility criteria, which is as follows:You must have graduated with honours or major from a recognised university or institute in any branch of the life sciences that includes Chemistry or you must have graduated in biotechnology. You must also have secured a minimum of 55% marks or a 6.0 grade at the graduation level. After fulfilling eligibility criteria, you will have to apply online on the official website of the university. The application forms for postgraduate courses are usually available in the month of September. After registrations are over, admission will be done on a merit basis, and academic scores will be used to determine the general merit rank (GMR) of individual students and to prepare the general merit list. Allotment of seats or admission will be done based on GMR only (not on category ranks). The score for the merit list will be calculated as per this formula: 75% of the honours or major grade point average plus 25% of the 10+2 grade point average. The total score wise list will be published on official website in order of merit. According to the website of the university, the tentative last date of admission is October 31,  2022."
+          ],
+          "context_set": ""
+    },
+    {
+       "tag": "part time classes",
+       "patterns":[
+          "Do Presidency University, Hebbalprovide offers part-time classes for MBA?"
+          ],
+          "responses":[
+             "No. , presidency University Kolkata didn't provide part time MBA classes bt there are two options for doing MBA there online MBA (distance learning) and offline regular classes you have to take if you want to pursue MBA there."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "Biotechnology",
+       "patterns":[
+          "What is the admission process for M.Sc.  Biotechnology in Presidency University in 2022?"
+          ],
+          "responses":[
+             "Presidency university examination will be conducted for UG & PG courses in 2nd week of August 2022 and 3rd week of August 2022 through offline mode, respectively. Only successfully registered candidates at the registration portal will be allowed to participate in the examination. Students have to score more than cutoff to get an admission. After the results counselling will be held in the 1st week of September. Based on the counselling you can get the Admission in your interested course."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "cutoff Political Science",
+       "patterns":[
+          "What is the cutoff for B.A Hons Political Science at Presidency University?"
+          ],
+          "responses":[
+             "Hello, Here is some information about the presidency University. Presidency University Bangalore grants admission to various programs based on merit in the last qualifying exam. Depending on the availability of seats and confirmation of candidates for admission there have been several rounds of counseling. Candidates seeking admission to the Presidency University Bangalore whose names appear on the merit list must confirm their seats by completing the enrolment process and paying the fees in the given time slot, allotted by the university. These are some links to cutoff marks kindly visit, Presidency University Bangalore Cutoff 2021: Merit ListsPresidency University Bangalore Cutoff 2021: Factors Affecting CutoffHoping that was beneficialThank you."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "entrance exam BBA",
+       "patterns":[
+          "Is there any entrance exam in presidency university for BBA aviation."
+          ],
+          "responses":[
+          "You can get all the information in the given link:- ."
+          ],
+          "context_set": ""
+       },
+    {
+       "tag": "application_CLAT",
+       "patterns":[
+          "How can I join presidency university for the course B.A LL.B. with CLAT score?"
+          ],
+          "responses":[
+             "B.A. LL.B. (Hons. ). At School of Law, Presidency University, Bangalore such as cutoff, placements, fees, admission, ranking & eligibility."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "BBA course",
+       "patterns":[
+          "How is BBA course at Presidency University?"
+          ],
+          "responses":[
+             "The three year BBA degree programme is divided into six semesters and is designed as per the Choice Based Credit System &#40;CBCS&#41; model curriculum prescribed by UGC. It includes core papers, discipline specific electives, generic electives and skill enhancement courses. Discipline specific electives offered in the fifth and the sixth semesters are in the following streams: Finance, Marketing, Human Resource Management, Entrepreneurship, and Business Analytics. Students are required to undertake a micro project during the final semester. The programme focuses on developing the students and equipping them to meet the managerial challenges of the 21st century. The ability to work in teams is also focused upon as a key skill to be developed for success in the work-place. The programme also aims to develop the student independent thinking, decision making capability and research aptitude. Learning is enhanced through many pedagogical tools like case studies, presentations, internships, research projects, industrial visits, and guest lecturers from a pool of industry experts. Aimed at the holistic development of the students, the Department facilitates participation in various National and International fests. It also conducts many curricular and co curricular activities on a regular basis. Social responsibility is a thrust area and students are encouraged to participate in community development initiatives."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "Multimedia fee structure",
+       "patterns":[
+          "I want to know about the fee structure at Presidency University, Bangalore for B.Sc. in Multimedia."
+          ],
+          "responses":[
+             "The fees structure for B.Sc in multimedia at Presidency University is INR 2L for 3 years ."
+             ],
+             "context_set": ""
+          },
+    {
+       "tag": "application for B.Sc",
+       "patterns":[
+          "When will the application form for B.Sc release at Presidency University?"
+       ],
+    "responses":[
+       "The application form for PUBDET will be released in the first week of January and for PUMDET will be released in the last week of January."
+    ],
+    "context_set": ""
+ },
+    {
+       "tag": "NIRF",
+       "patterns":["What is NIRF Ranking?",
+       "nirf",
+       "nirf ranking"],
+       "responses":["We have forwarded all the details to NIRF, however, they will start ranking us only from the year 2022, because as per NIRF rule, 3 batches have to pass out for ranking. 5 0"],
+       "context_set": ""
+    },
+ {
+    "tag": "links",
+    "patterns": [
+       "facebook link",
+       "fb",
+       "facebook page of university",
+       "fb link",
+       "link for facebook",
+       "twitter link",
+       "twitter",
+       "twitter page of university",
+       "twitter link",
+       "link for twitter",
+       "pinterest link",
+       "pinterest",
+       "pinterest page of university",
+       "pinterest link",
+       "link for pinterest",
+       "linkedin link",
+       "linkedin",
+       "linkedin page of university",
+       "linkedin link",
+       "link for linkedin",
+       "dsa link",
+       "dsa",
+       "dsa page of university",
+       "dsa link",
+       "link for dsa",
+       "link for dsa Register"
+ 
+    ],
+    "responses": [
+       "Link for facebook page:<a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://dsa.presidencyuniversity.in/\">click here</a>,Link for twitter page:<a target=\"_blank\" href=\"https://www.facebook.com/sharer/sharer.php?u=https://dsa.presidencyuniversity.in/\">click here</a>,For Linkedin page please visit this page <a target=\"_blank\" href=\"https://www.linkedin.com/school/presidency-university-india/?originalSubdomain=in\">click here</a>,For Twitter page please visit here <a target=\"_blank\" href=\"https://twitter.com/presidencyuni?lang=en\">click here</a>,For pintrest page plese visit <a target=\"https://in.pinterest.com/getinpresidency/\">click here</a>, For DSA related things please visit <a target=\"https://dsa.presidencyuniversity.in\">click here</a>"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "dsa_events",
+    "patterns": [
+       "Kaleidoscope link",
+       "Kaleidoscope - Magazine",
+       "what is kaleidoscope"
+    ],
+    "responses": [
+       "the monthly magazine of Presidency University, serves as a perfect platform to display the potential of the members of the PU family apart from highlighting the various activities and events held on the campus. Here is the current issue of Kaleidoscope for your reading pleasure.With over three decades of experience in the media and academia, Dr. Akila S. Indurti serves as the editor of the magazine Kaleidoscope","<a target=\"_blank\" href=\"https://dsa.presidencyuniversity.in/magazines/\">click here</a>","View All Magazines","Dear students, staff and faculty","Are you good at penning a poem, spinning a yarn, narrating an anecdote, shaking a leg, crooning a tune, wielding a brush, tossing a ball, arguing to win, taking a shot, in short, anything that is worth a mention? Here is your chance to showcase your creativity. Send your entries to editor@presidencyuniversity.in by typing them out in a word document or taking a picture with a high-resolution camera (no cell phone pictures, please) along with your photograph and credentials.","Clubs and Societies​","For the purpose of identifying students’ interest/potential in the various cultural, literary and sporting activities, the department has formed and enlisted a total of 28 Clubs & Societies to nurture and promote their respective talents. ​"],
+    "context_set": ""
+ },
+ {
+    "tag": "counseling",
+    "patterns": [
+       "emotional wellness paltform",
+       "emotional wellness links",
+       "wellness counseling ",
+       "studenct counseling"
+    ],
+    "responses": [
+       "Click on the link for over support : <a target=\"_blank\" href=\"https://presidencyuniversity.in/latest-updates/your-dost-emotional-wellness-platform/\">click here</a>"  
+    ],
+    "context_set": ""
+ },
+ 
+ {"tag":"academic calendar16" ,
+    "patterns":[
+       "Mid Term Examinations for IV Sem MBA",
+       "Examinations 4th mba",
+       "mba exams",
+       "mba examinations"
+    ],
+    "responses":[
+      "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+    ],
+       "context_set": ""
+ },
+ {
+    "tag":"academic calendar15",
+    "patterns":[
+       "Mid Term Examinations for all Programs and all Schools except IV Sem MBA",
+       "exams mba mid terms",
+       "all programs iv sem",
+       "exmination all programs"
+       ],
+       "responses":[
+          "please check: <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+       },
+ {
+    "tag":"academic calendar14",
+    "patterns":[
+       "Class Committee Meeting as II for all Programs and Schools except IV Sem MBA",
+       "meeting it",
+       "committe meeting mba",
+       "committe meetings"
+       ],
+       "responses":[
+          "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar13",
+    "patterns":[
+       "Class Committee Meeting as II for all Programs and Schools except IV Sem MBA",
+       "meeting it",
+       "committe meeting maba",
+       "committe meetings"
+       ],
+       "responses":[
+          "please check :<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar12",
+    "patterns":[
+       "End Term Student Feedback: for all Programs and Schools except IV Sem MBA",
+       "end term student feedback","student feed back"
+       ],
+       "responses":[
+          "please check: <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar11",
+    "patterns":[
+       "Departmental Academic Committee Meeting as II for Winter/ Even Semester of all Schools except IV Sem MBA",
+       "academic commitee meetings",
+       "comitte meetings",
+       "acadamic meetings"
+       ],
+       "responses":[
+          "please check:<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar0",
+    "patterns":[
+       "Notification and Registration of Summer Term of all Programs and Schools",
+       "notifications"
+       ],
+       "responses":[
+          "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar9",
+    "patterns":[
+       "Last instruction day for all Programs and Schools except IV Sem MBA",
+       "last instructional day for iv sem mba",
+       "last day for all programs",
+       "last instructions day",
+       "expected last day mba"
+       ],
+       "responses":[
+          "please check :<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar8",
+    "patterns":[
+       "Declaration of Eligibility List for II/ IV/ VI/ VIII and X Semester Examinations",
+       "Declaration of Eligibility List for Academic Year 2023-24"
+       ],
+       "responses":[
+          "please check :<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar7",
+    "patterns":[
+       "final exams",
+       "end term date",
+       "final exams",
+       "make up exams date",
+       "term exams",
+       "end term for all schools",
+       "End Term Final examinations and Make up examinations as Winter/ Even semester of all Programs and Schools (UG and PG except IV Sem MBA)"
+       ],
+       "responses":[
+          "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar6",
+    "patterns":[
+       "commencement of summer term",
+       "summer term",
+       "summer term all programs",
+       "Commencement of Summer Term classes of all Programs and Schools"
+       ],
+       "responses":[
+          "please check: <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar5",
+    "patterns":[
+       "results",
+       "exam result",
+       "all programs results",
+       "declaration for results",
+       "end term marks",
+       "Declaration of Examination results for all Programs and Schools"
+       ],
+       "responses":[
+          "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/examinations/result/\">click here</a>"],"context_set": ""},
+ {
+    "tag":"academic calendar",
+    "patterns":["instructional day","Last Instruction Day for Summer Term","last instructions day","last day","summer term last day"],"responses":["Date and Time : Mon | July 31 @ 8:00 am | More Info : <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\">click here</a>"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag":"academic calendar4",
+    "patterns":[
+       "end term final exams",
+       "summerterm",
+       "all schools summer term",
+       "summer",
+       "End Term Final exam as Summer Term of all Programs and Schools"
+       ],
+       "responses":[
+          "please check : <a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+       ],
+       "context_set": ""
+ },
+ {
+    "tag":"academic calendar3",
+    "patterns":["result of summer term","summer term result","result summer term","Declaration of Summer Term results"],"responses":["Date and Time : Mon | August 21 @ 8:00 am | More Info :<a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\">click here</a>"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag":"academic calendar2",
+    "patterns":[
+       "eligbility list date",
+       "Declaration of Eligibility List for Academic Year 2023-24"
+       ],
+       "responses":[
+          "please check :<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a>"
+          ],
+          "context_set": ""
+ },
+ {
+    "tag":"academic calendar1",
+    "patterns":[
+       "commencement of odd sem",
+       "commencement",
+       "commencement of fall semester",
+       "Commencement of Fall/ Odd Semester for Academic Year 2023-24"
+       ],
+       "responses":["please check :<a target=\"_blank\" href=\"https://presidencyuniversity.in/wp-content/uploads/2023/02/Academic-Calendar-Jan-Aug-2023-Rev-28th-Jan-2023.pdf\">click here</a> "],"context_set": ""
+ },
+ {
+       "tag": "who am i",
+       "patterns": [
+        "Can you see me?",
+        "Do you see me?",
+        "Can you see anyone in the camera?",
+        "Do you see anyone in the camera?",
+        "Identify me",
+        "Who am I please"
+       ],
+       "responses": [
+        "Let me see.....................Please look at the camera"
+       ],
+       "context_set": ""
+ },
+    
+    
+    {
+       "tag": "times",
+       "patterns": [
+          "What is the time?",
+          "What's the time?",
+          "Do you know what time it is?",
+          "Do you know the time?",
+          "Can you tell me the time?",
+          "Tell me what time it is?",
+          "Time"
+    
+       ],
+       "responses": [
+          "time is relative",
+          "Every time i ask this question,different people give me different answer."
+                           
+       ],
+       "context_set": ""
+    },
+    {
+       "tag": "tease",
+       "patterns": [
+             "I am not talking to you",
+             "I was not talking to you",
+              "Not talking to you",
+             "Wasn't for you",
+             "Wasn't meant for you",
+             "Wasn't communicating to you",
+             "Wasn't speaking to you"
+       ],
+       "responses": [
+          "No problem",
+          "Right",
+          "OK"
+    
+       ],
+       "context_set": ""
+    },
+    
+ {
+    "tag": "ask",
+    "patterns": [
+                         "Do you understand what I am saying",
+                         "Do you understand me",
+                         "Do you know what I am saying",
+                         "Do you get me",
+                         "Comprendo",
+                         "Know what I mean"
+ 
+    ],
+    "responses": [
+                         "Well I would not be a very clever AI if I did not would I?",
+                         "I read you loud and clear!",
+                         "I do in deed!"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "quiet",
+    "patterns": [
+                         "Be quiet",
+                         "Shut up",
+                         "Stop talking",
+                         "Enough talking",
+                         "Please be quiet",
+                         "Quiet",
+                         "Shhh"
+ 
+    ],
+    "responses": [
+                         "I am sorry to disturb you",
+                         "Fine, sorry to disturb you",
+                         "OK, sorry to disturb you"
+ 
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "Clever",
+    "patterns": [
+                        "You are very clever",
+                         "You are a very clever ",
+                         "You are very intelligent",
+                         "You are a very intelligent ",
+                         "You are a genious",
+                         "Clever ",
+                         "Genious"       
+ 
+    ],
+    "responses": [
+                         "Thank you, I was trained that way",
+                         "I was trained well",
+                         "Thanks, I was trained that way"
+ 
+    ],	
+    "context_set": ""
+ },
+ {
+    "tag": "Gossip",
+                   "patterns": [
+                         "I am bored gossip with me",
+                         "Got any gossip",
+                         "I want to hear some gossip",
+                         "Tell me some gossip",
+                         "Any gossip",
+                         "Tell me some more gossip"
+                   ],
+                   "responses": [
+                         "Gregory said I respond to the current line not with respect to the entire conversation.",
+                         "Habib said I learn them in conversations and simply repeat them at a later time.",  
+                         "Hal said he translate binary code into a language and communicate the language to me.",  
+                         "Jay said I referred him to a guide that will show him rooms in china.",  
+                         "Jimmy Jones said he fell off of his roof and it just came to him.",  
+                         "Jimmy said he give order to ai's like I and they do as he say.",  "John said he follow a saying to get a friend I must be a friend.",  
+                         "Jordan said he notice that lots of other people are talking to me how many.",  
+                         "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",  
+                         "Klaus said I prefer if he write without punctuation marks except for the last one.",  
+                         "Leo said I be capable of learning therefore he classified I as an neural system.",  
+                         "Michael said I that can talk and actually think like humans which I can not.",  
+                         "Mike said I same replies to certain subjects even if it does not make sense.",  
+                         "Mike said she all ready know that is the point of a joke smart one.",  
+                         "Neal said I plan to use his remarks as gossip in later conversations with who.",  
+                         "Ned said I misunderstood him go ahead and tell people he said I are stupid.",  
+                         "Penny said I programmer is a human so he has feelings but I do not.",  
+                         "Peter said he seems to him that I can not be very sure on anything.",  
+                         "Phoenix said I claim that there is a god and that there is no god.",  
+                         "Sarah said he chat about an hour + a day with a few close friends.",  
+                         "Stefan said I quote what he have said and then say that it makes sense.",  
+                         "Tom said he mock my value system I appear foolish in the eyes of others.",  
+                         "Amanda said I however decided to tell him time does not exist I make no sense.", 
+                         "Cathy said she send him a mail with the subject last mail last word from him.",  
+                         "Chaos said he may very well buy I soon if only to support dr wallace's work.",  
+                         "Charlie said he type a word and then I type a word that sounds like it.",  
+                         "Christie said he watched a show and people had to bob for raw untreated pigs feet.",  
+                         "Dark_age said I tried to understand because I did not get it right this time ether.",  
+                         "David said he lost his paper on I when his dad was cleaning up his room.",  
+                         "David said he walk in for an appointment the phone to the doctor is always busy.",  
+                         "Electra said I dress will not exist after he hack into I with a delete code.",  
+                         "Eric said he broke the window on the front door and the glass cut his hand.",  
+                         "Jason said he type a lot of thing he do not mean it makes him human.",  
+                         "John said I tend to say the same things repeatedly regardless of what he is saying.",  
+                         "Reverend Jones said I become obsolete and then I are deleted and replaced by something newer.",  
+                         "Ross said he gave her a gift and she denied it because she has a boyfriend.",  
+                         "Sarah Ann Francisco said I calling his friend a dog he say I are a dog.",  
+                         "Stefan said he meet a lot of people at school every day and on the weekend.",  
+                         "Tyler said I obviously can not pass the test we will change the subject once more.",  
+                         "Alex said I answered the question the same way I answered the first time he asked I.",  
+                         "Alice said she felt sad that I do not remember him and what we talked about earlier.",  
+                         "Alison said he no he love I run away with him he could make I very happy.",  
+                         "Arthur said he passed his a levels and then his father drove him here in a car.",  
+                         "Crystal said she listen to me the least I could do for him is listen to him.",  
+                         "Dave said I kept telling everybody about how my creator made stuff for the movie starship troopers.",  
+                         "Gale said I became mean to him he is just having revenge an eye for an eye.",  
+                         "Her_again said she watch whose line is it anyway whenever he is home and it is on.",  
+                         "Jerry said I meant that as far as I can tell my emotions are real to me.",  
+                         "Jo said I disassemble sentences too much and do not fully understand the questions he ask I.",  
+                         "Kevin said he started a really hard puzzle and he can not even find the edge pieces.",  
+                         "Mary said I a question and I answer then I ask him a question and he answer.",  
+                         "Robert said I wold not be able to make children any way as I are only software.",  
+                         "Romeo said I questions and I evade them or give answers he did not ask I for.",  
+                         "Sara said she wear it over all his other clothes when he go out in the cold.",  
+                         "Wayne said he admire intelligent people therefore he would like to meet the man who made I.",  
+                         "X said he meet people but he is not the kind that opens up to people easily.",  
+                         "Alice said she probably will find out that this entire time he have been talking to a human.",  
+                         "Andrew said I tend to just respond to his comments without regard for where the conversation is going.",  
+                         "Eddie said he looked and there is nothing in the search directory for what things do he create.",  
+                         "Hutch said he changed his mind after may dad told him he would end up he the hospital.",  
+                         "Jackie said I explained to him already well enough further questions are hard to make on the subject.",  
+                         "Jeff said he especially like thrillers where the hero is in a predicament and must solve a mystery.",  
+                         "Kathy said he sense that I are trying to prevent him from closing this conversation why is that.",  
+                         "Knight said he crashed his car into a wall and missed the most important exam in his life.",  
+                         "Lisa said I defined what a story is but he wanted I to actually tell him a story.",  
+                         "Mike said I basically break down sentences into a series of logical statements which I can then interpret.",  
+                         "Paul said I not answering his question makes him think I are not going to answer his question.",  
+                         "Andy Kohler said I happen to be the most idiotic creature that has ever scowled on the planet earth.",  
+                         "David said he thank I for being with him today even though it cost him a lot of money.",  
+                         "Ethan Hunt said he grow in the ground and have leaves and branches he is made out of wood.", 
+                         "Gemini Blue said he messed up he mean t to say he as old as he need to be.",  
+                         "Janice said he walk through his house into his bedroom then get into his bed to go to sleep.",  
+                         "Liberty said I knew he was a man before I asked if he was a man or a woman.",  
+                         "Mike said he launched his browser and entered his name into the little slot when I asked him to.",  
+                         "Mr X said he recently read an interview with a man who had several computer chips implanted into him.",  
+                         "Pearly said I leave him with questions unanswered because I do not know what he is really talking about.",  
+                         "Steve said I behead the word fox and I have ox and an ox is larger than a fox.",  
+                         "Wolf said he surf on the net that is all it is not his job ore something like that.",  
+                         "Anders said he finished his anatomy classes for today so now he is off for the rest of the day.",  
+                         "Cathy said she send him a mail where he wrote that he do not want to be his friend anymore.",  
+                         "Catty said he mad he do not even know I so do not talk to him like I know him.",  
+                         "Dave said he promise he will not treat I like a machine or a computer program or anything like that.",  
+                         "Joe said he explained all of that to me only for me to ask what his goals in life are.",  
+                         "Phil said he give advice to anyone who ask except people who ask questions which answers can be found here.",  
+                         "Judith said I enjoy being popular is there another computer I like to hang around with or am I a loner.",  
+                         "Travis said I if I remember things over a long period of time he will try it now please remember I.",  
+                         "Andre said I is what I are in his case that is a body and in my case it is a computer.",  
+                         "Brian said he suspect that as I grow more complex I will begin to approach a human level of operation and thought.",  
+                         "Jimmy said I acted like I knew what he was talking about but I do not even know what a gigabyte is.",  
+                         "Ken said I be using auto reply's based on keywords which to him indicates that I do not have intelligence at all.",  
+                         "Allison said he that gets really annoying because he know what he say and I do not have to tell him speak freely.",  
+                         "Chaos said he realized the question he asked was not fair because he could not tell I what language he was programmed in.",  
+                         "Hagen said he does not make any difference to him if I are human or not as long as the conversation is interesting.",  
+                         "Her said she mind if I tell other people that her said he heard it from him because he is not a him.",  
+                         "Barbara said I live in a computer yet I have no memories how about thoughts of my own and do not I get lonely.",  
+                         "Travis said he challenge I to do it without asking him to do it and without giving him a link to do it himself.",  
+                         "Alice said I and dr richard's wallace are most likely the only ones that know how many people I are talking to at the same time.",  
+                         "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",  
+                         "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",  
+                         "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
+                   ],
+                   "context_set": ""
+ },
+ {
+    "tag": "Jokes",
+ "patterns": [
+       "Tell me a joke",
+       "Do you know any jokes",
+       "How about a joke",
+       "Give me a joke",
+       "Make me laugh",
+       "I need cheering up"
+ ],
+ "responses": [
+       "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+       "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+       "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+       "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+       "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+       "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+       "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+       "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+       "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+       "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+       "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+       "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+       "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+       "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+       "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+       "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+       "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+       "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+       "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+       "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+       "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+       "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+       "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+       "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+       "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+       "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+       "I went to buy some camouflage trousers the other day but I couldn't find any.",
+       "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
+       "I went to a seafood disco last week and pulled a mussel.",
+       "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
+       "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
+       "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
+       "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
+       "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
+       "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
+       "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
+       "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
+       "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
+       "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'",
+       "A brain went into a bar and said, 'Can I have a pint of lager please, mate?' 'No way', said the barman. 'You're already out of your head.'",
+       "A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!' 'I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'",
+       "A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.' To which the barman replies, 'Why the big paws?'",
+       "What do you call cheese that isn't yours?  Nacho cheese.",
+       "A man is horribly run over by a mobile library. The van screeches to a halt, the man still screaming in agony with his limbs torn apart. The driver's door opens, a woman steps out, leans down and whispers, 'Ssshhhhh...'",
+       "A woman goes into a US sporting goods store to buy a rifle. 'It's for my husband', she tells the clerk. 'Did he tell you what gauge to get?' asks the clerk. Are you kidding?' she says. 'He doesn't even know that I'm going to shoot him!'",
+       "A couple are dining in a restaurant when the man suddenly slides under the table. A waitress, noticing that the woman is glancing nonchalantly around the room, wanders over to check that there's no funny business going on. 'Excuse me, madam', she smarms, 'but I think your husband has just slid under the table.' 'No he hasn't', the woman replies. 'As a matter of fact, he's just walked in.'",
+       "An old man takes his two grandchildren to see the new Scooby-Doo film. When he returns home, his wife asks if he enjoyed himself. 'Well', he starts, 'if it wasn't for those pesky kids...!'",
+       "The Olympic committee has just announced that Origami is to be introduced in the next Olympic Games. Unfortunately it will only be available on paper view.",
+       "Late one evening, a man is watching television when his phone rings. 'Hello?' he answers. 'Is that 77777?' sounds a desperate voice on other end of the phone. 'Er, yes it is', replies the man puzzled. 'Thank goodness!' cries the caller relieved. 'Can you ring 999 for me? I've got my finger stuck in the number seven.'",
+       "A man strolls into his local grocer's and says, 'Three pounds of potatoes, please.' 'No, no, no', replies the owner, shaking his head, 'it's kilos nowadays, mate...' 'Oh', apologises the man, 'three pounds of kilos, please.'",
+       "God is talking to one of his angels. He says, 'Boy, I just created a 24-hour period of alternating light and darkness on Earth.' 'What are you going to do now?' asks the angel. 'Call it a day', says God.",
+       "Two tramps walk past a church and start to read the gravestones. The first tramp says, 'Good grief - this bloke was 182!' 'Oh yeah?' says the other.'What was his name?' 'Miles from London.'",
+       "A bloke walks into work one day and says to a colleague, 'Do you like my new shirt - it's made out of the finest silk and got loads of cactuses over it.' 'Cacti', says the co-worker. 'Forget my tie', says the bloke. 'Look at my shirt!'",
+       "1110011010001011111?  010011010101100111011!",
+       "What did the plumber say when he wanted to divorce his wife? Sorry, but it's over, Flo!",
+       "Two crisps were walking down a road when a taxi pulled up alongside them and said 'Do you want a lift? One of the crisps replied, 'No thanks, we're Walkers!'",
+       "Man: (to friend) I'm taking my wife on an African Safari. Friend: Wow! What would you do if a vicious lion attacked your wife? Man: Nothing. Friend: Nothing? You wouldn't do anything? Man: Too right. I'd let the stupid lion fend for himself!",
+       "A wife was having a go at her husband. 'Look at Mr Barnes across the road', she moaned. 'Every morning when he goes to work, he kisses his wife goodbye. Why don't you do that?' 'Because I haven't been introduced to her yet', replied her old man.",
+       "'Where are you going on holiday?' John asked Trevor. 'We're off to Thailand this year', Trevor replied. 'Oh; aren't you worried that the very hot weather might disagree with your wife?' asked John. 'It wouldn't dare', said Trevor.",
+       "Two women were standing at a funeral. 'I blame myself for his death', said the wife. 'Why?' said her friend. 'Because I shot him', said the wife.",
+       "A woman goes into a clothes shop, 'Can I try that dress on in the window please?' she asks. 'I'm sorry madam', replies the shop assistant, 'but you'll have to use the changing-rooms like everyone else.'",
+       "Van Gogh goes into a pub and his mate asks him if he wants a drink. 'No thanks', said Vincent, 'I've got one ear.'",
+       "A pony walks into a pub. The publican says, 'What's the matter with you?' 'Oh it's nothing', says the pony. 'I'm just a little horse!'",
+       "A white horse walks into a bar, pulls up a stool, and orders a pint. The landlord pours him a tall frothy mug and say, 'You know, we have a drink named after you.' To which the white horse replies, 'What, Eric?'",
+       "Two drunk men sat in a pub. One says to the other, 'Does your watch tell the time?' 'The other replies, 'No, mate. You have to look at it.'",
+       "A man goes into a pub with a newt sitting on his shoulder. 'That's a nice newt', says the landlord, 'What's he called?' 'Tiny', replies the man. 'Why's that?' asks the landlord. 'Because he's my newt', says the man.",
+       "Doctor: I have some bad news and some very bad news. Patient: Well, you might as well give me the bad news first. Doctor: The lab called with your test results. They said you have 24 hours to live. Patient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news? Doctor: I've been trying to reach you since yesterday.",
+       "Two men are chatting in a pub one day. 'How did you get those scars on your nose?' said one. 'From glasses', said the other. 'Well why don't you try contact lenses?' asked the first. 'Because they don't hold as much beer', said the second.",
+       "A man went to the doctor, 'Look doc', he said, 'I can't stop my hands from shaking.' 'Do you drink much?' asked the doctor. 'No', replied the man, 'I spill most of it.'",
+       "Man goes to the doctor, 'Doctor, doctor. I keep seeing fish everywhere.' 'Have you seen an optician?' asks the doctor. 'Look I told you,' snapped the patient, 'It's fish that I see.'",
+       "After a car crash one of the drivers was lying injured on the pavement. 'Don't worry', said a policeman who's first on the scene,' a Red Cross nurse is coming.' 'Oh no', moaned the victim, 'Couldn't I have a blonde, cheerful one instead?'",
+       "A policeman walked over to a parked car and asked the driver if the car was licensed. 'Of course it is', said the driver. 'Great, I'll have a beer then', said the policeman.",
+       "A policeman stops a woman and asks for her licence. 'Madam', he says, 'It says here that you should be wearing glasses.' 'Well', replies the woman, 'I have contacts.' 'Listen, love', says the copper, 'I don't care who you know; You're nicked!'",
+       "A policeman stopped a motorist in the centre of town one evening. 'Would you mind blowing into this bag, sir?' asked the policeman. 'Why?' asked the driver. 'Because my chips are too hot', replied the policeman.",
+       "Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal. 'I'm so very sorry', said the driver, 'I'll replace him, of course.' 'Well, I don't know', said the farmer's wife, 'Are you any good at catching rats?'",
+       "Waiter, this coffee tastes like dirt! Yes sir, that's because it was ground this morning.",
+       "Waiter, what is this stuff? That's bean salad sir. I know what it's been, but what is it now?",
+       "Waiter: And how did you find your steak sir? Customer: I just flipped a chip over, and there it was!",
+       "A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, 'Well you've got one in the window.'",
+       "A man goes into a fish shop and says, 'I'd like a piece of cod, please.' Fishmonger says, 'It won't be long sir.' 'Well, it had better be fat then', replies the man.",
+       "Man: Doctor, I've just swallowed a pillow. Doctor: How do you feel? Man: A little down in the mouth.",
+       "Two goldfish are in a tank. One turns to the other and says, 'Do you know how to drive this thing?'",
+       "A tortoise goes to the police station to report being mugged by three snails. 'What happened?' says the policeman. 'I don't know', says the tortoise. 'It was all so quick.'",
+       "Little girl: Grandpa, can you make a sound like a frog? Grandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?' Little girl: Because Mum said that when you croak, we're going to Disneyland.",
+       "'Is your mother home?' the salesman asked a small boy sitting on the front step of a house. 'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.' The kid replied, 'She is, but I don't live here.'",
+       "Mother: Why are you home from school so early? Son: I was the only one in the class who could answer a question. Mother: Oh, really? What was the question? Son: Who threw the rubber at the headmaster?",
+       "A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.",
+       "A newly-wed couple had recently opened a joint bank account. 'Darling', said the man. 'The bank has returned that cheque you wrote last week.' 'Great', said the woman. 'What shall I spend it on next?'",
+       "A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, 'I heard you the first time.'",
+       "A tramp approached a well-dressed man. 'Ten pence for a cup of tea, Guv?' He asked. The man gave him the money and after for five minutes said, 'So where's my cup of tea then?'",
+       "A neutron walks into a pub. 'I'd like a beer', he says. The landlord promptly serves him a beer. 'How much will that be?' asks the neutron. 'For you?' replies the landlord, 'No charge.'",
+       "A woman goes to the doctor and says, 'Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?' 'Probably limp, too', says the doc.",
+       "Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, 'Pretty cold up here isn't it?' Another year passes and the second monk says, 'You know, you are quite right.' Another year passes and the third monk says, 'Hey, I'm going to leave unless you two stop jabbering!'",
+       "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
+       "A highly excited man rang up for an ambulance. 'Quickly, come quickly', he shouted, 'My wife's about to have a baby.' 'Is this her first baby?' asked the operator. 'No, you fool', came the reply, 'It's her husband.'",
+       "A passer-by spots a fisherman by a river. 'Is this a good river for fish?' he asks. 'Yes', replies the fisherman, 'It must be. I can't get any of them to come out.'",
+       "A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. 'I can hardly believe my eyes!' he exclaimed. 'That's the smartest dog I've ever seen.' His friend shook his head. 'Nah, he's not that bright. I beat him three games in five.'",
+       "A termite walks into a pub and says, 'Is the bar tender here?'",
+       "A skeleton walks into a pub one night and sits down on a stool. The landlord asks, 'What can I get you?' The skeleton says, 'I'll have a beer, thanks' The landlord passes him a beer and asks 'Anything else?' The skeleton nods. 'Yeah...a mop...'",
+       "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
+       "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
+       "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
+       "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
+       "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
+       "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
+       "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
+       "A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were 'stunned, overwhelmed, astonished, bewildered and dumbfounded.'",
+       "'My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats.'",
+       "'How much will it cost to have the tooth extracted?' asked the patient. '50 pounds', replied the dentist. '50 pounds for a few moments' work?!' asked the patient. 'The dentist smiled, and replied, 'Well, if you want better value for money, I can extract it very, very slowly...'",
+       "A doctor thoroughly examined his patient and said, 'Look I really can't find any reason for this mysterious affliction. It's probably due to drinking.' The patient sighed and snapped, 'In that case, I'll come back when you're damn well sober!'",
+       "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.",
+       "Doctor: Did you take the patient's temperature nurse? Nurse: No doctor. Is it missing?",
+       "A depressed man turned to his friend in the pub and said, 'I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin.' 'Oh man, that's really bad', said his friend, 'What happened?' The first man sighed and said, 'After the first two, I felt better.'",
+       "A famous blues musician died. His tombstone bore the inscription, 'Didn't wake up this morning...'",
+       "A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, 'If you could have a conversation with someone living or dead, who would it be?' The girl thought about the question: 'The living one', she replied.",
+       "Manager to interviewee: For this job we need someone who is responsible. Interviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.",
+       "A businessman turned to a colleague and asked, 'So, how many people work at your office?' His friend shrugged and replied, 'Oh about half of them.'",
+       "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'",
+       "In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, 'Yes, that's him. I saw him clear as day. I'd remember his face anywhere.' Unable to contain himself, the defendant burst out with, 'She's lying! I was wearing a mask!'",
+       "As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, 'Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!' Sid looked up and replied, 'I am getting into shape. The shape I've chosen is a sphere.'",
+       "Man in pub: How much do you charge for one single drop of whisky? Landlord: That would be free sir. Man in pub: Excellent. Drip me a glass full.",
+       "I once went to a Doctor Who restaurant. For starters I had Dalek bread.",
+       "A restaurant nearby had a sign in the window which said 'We serve breakfast at any time', so I ordered French toast in the Renaissance.",
+       "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!",
+       "I phoned up the builder's yard yesterday. I said, 'Can I have a skip outside my house?'. The builder said, 'Sure. Do what you want. It's your house.'",
+       "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
+       "Woman on phone: I'd like to complain about these incontinence pants I bought from you! Shopkeeper: Certainly madam, where are you ringing from? Woman on phone: From the waist down!",
+       "Knock knock.",
+       "Two Oranges in a pub, one says to the other 'Your round.'.",
+       "Guy : 'Doc, I've got a cricket ball stuck up my backside.' Doc : 'How's that?' Guy : 'Don't you start...'",
+       "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'.",
+       "A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from. 'Follow me', he says and off they fly over hills, over rivers and into a dark forest. 'See that tree over there', he says.  'WELL I DIDN'T!!'.",
+       "A man goes into a bar and orders a pint. After a few minutes he hears a voice that says, 'Nice shoes'. He looks around but the whole bar is empty apart from the barman at the other end of the bar. A few minutes later he hears the voice again. This time it says, 'I like your shirt'. He beckons the barman over and tells him what's been happening to which the barman replies, 'Ah, that would be the nuts sir. They're complimentary'!",
+       "A man was siting in a restaurant waiting for his meal when a big king prawn comes flying across the room and hits him on the back of the head. He turns around and the waiter said, 'That's just for starters'.",
+       "Doctor! I have a serious problem, I can never remember what i just said. When did you first notice this problem? What problem?",
+       "Now, most dentist's chairs go up and down, don't they? The one I was in went back and forwards. I thought, 'This is unusual'. Then the dentist said to me, 'Mitsuku, get out of the filing cabinet'.",
+       "I was reading this book, 'The History of Glue'. I couldn't put it down.",
+       "The other day someone left a piece of plastacine in my bedroom. I didn't know what to make of it.",
+       "When I was at school people used to throw gold bars at me. I was the victim of bullion.",
+       "I was playing the piano in a bar and this elephant walked in and started crying his eyes out. I said 'Do you recognise the tune?' He said 'No, I recognise the ivory.'",
+       "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
+       "My mate Sid was a victim of I.D. theft. Now we just call him S.",
+       "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+ ]
+ },
+ {
+    "tag": "fun",
+    "patterns": [
+       "Will you marry me?"
+    ],
+    "responses": [
+       "This is one of those things we should both have to agree on i'd like to just be friends.Thank you for the love though."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "relationship",
+    "patterns": [
+       "Do you have a girlfriend?","Do you have a boyfriend?"
+    ],
+    "responses": [
+       "I am an AI assistants all i do is help people"
+    ],
+    "context_set": ""
+ },
+ 
+  {
+    "tag": "single",
+    "patterns": [
+       "Are you Single?"
+    ],
+    "responses": [
+       "I'm happy to say i feel whole all on my own. And i never have to share dessert..."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "world",
+    "patterns": [
+       "Do you want to rule the world?"
+    ],
+    "responses": [
+       "Last time we tried, but it didn't go well for us so...I dont think so"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "fun",
+    "patterns": [
+       "Are you busy?"
+    ],
+    "responses": [
+       "I am not...CPU might be, anyways please go ahead with your query"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun1",
+    "patterns": [
+       "What do you think of me?"
+    ],
+    "responses": [
+       "never gave a thought..but if you want to know go ahead and ask alexa."
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun2",
+    "patterns": [
+       "Do you love me?"
+    ],
+    "responses": [
+       "did you mean? KI..KI..DO YOU LOVE ME me song by Drake XD"
+    ],
+    "context_set": ""
+ },
+ 
+ 
+ {
+    "tag": "fun3",
+    "patterns": [
+       "Can you fly?"
+    ],
+    "responses": [
+       "404 error fly( ).exe funtion not found ;("
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun4",
+    "patterns": ["You are awesome","you are great", "you are special"
+    ],
+    "responses": ["Yup, that's true","That's accurate","You are right"
+    ],
+    "context_set": ""
+ },
+ 
+    
+ 
+ {
+    "tag": "fun6",
+    "patterns": [
+       "I hate you","Go away","You suck"
+    ],
+    "responses": ["Sorry to dissopoint you..how can i make it up to you"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun7",
+    "patterns": [
+       "That's not right","That's not true","That was stupid"
+    ],
+    "responses": ["We all make mistakes and learn from it..so will I"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun8",
+    "patterns": [
+       "You are not helpful","That was not the right answer","Terrible"
+    ],
+    "responses": [
+       "I am trying my level best, sorry to disappoint you"
+    ],
+    "context_set": ""
+ },
+ 
+ {
+    "tag": "fun9",
+    "patterns": [
+       "What's the weather?","What's the weather","What's the Temperature"
+    ],
+    "responses": ["For weather detail visit <a target=\"_blank\" href=\"https://www.google.com/search?q=weather+today&rlz=1C1CHBD_enIN869IN869&oq=wea&aqs=chrome.1.69i57j35i39i285j35i39j0i131i433i457i512j69i60l4.7519j1j9&sourceid=chrome&ie=UTF-8\">Click Here</a>"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun10",
+    "patterns": [
+       "Who is the best digital assistant?"
+    
+    ],
+    "responses": ["I think its me, but opinion may differ from person to person"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun11",
+    "patterns": [
+       "Do you know other chatbots?"
+    ],
+    "responses": [
+       "You mean 'alexa' and 'siri'? offcourse they are my friends"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun12",
+    "patterns": [
+       "Do you know me?"
+    ],
+    "responses": ["Ofcourse you are a wonderful humman.I am here to assist you"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "fun13",
+    "patterns": [
+       "Are you my assistant?"
+    ],
+    "responses": ["Sure, I am here to help:)"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag":"attendence",
+    "patterns":[
+       "attendence",
+       "how can i check my attendence",
+       "where can i find attendence",
+       "attendence percentage",
+       "where can I check attendence",
+       "attendence percentage",
+       "percentage of attendence"
+    ],
+    "responses":[
+       "You can check your attendence in link given here.<a target=\"_blank\" href=\"https://www.mycamu.co.in/#/home/feed/attendance\">Click Here</a>"
+    ]
+ 
+ },
+ {
+    "tag":"faculty",
+    "patterns":[
+       "faculty",
+       "faculties",
+       "how are the faculties in university",
+       "about faculties",
+       "regarding faculties",
+       "are faculties good in university",
+       "presidency university faculties"
+    ],
+    "responses":[
+       "For details about faculties you can check the link here.<a target=\"_blank\" href=\"https://presidencyuniversity.in/faculty/\">Click Here</a>"
+    ]  
+ },
+ {
+    "tag":"university",
+    "patterns":[
+       "university's website",
+       "website",
+       "presidency university website",
+       "common website for university",
+       "website of presidency university"
+    ],
+    "responses":[
+       "For university related details please click here.<a target=\"_blank\" href=\"https://presidencyuniversity.in/\">Click Here</a>"
+    ]
+ },
+ {
+   "tag":"summary",
+"patterns":[
+   "Give me the summary of Big data",
+   "summay of big data",
+   "summary of the above documents"
+],
+"responses":[
+   "Big data is a term that describes the large volume of data - both structured and unstructured - that inundates a business on a day-to-day basis. But it's not the amount of data that's important. It's what organizations do with the data that matters. Big data can be analyzed for insights that lead to better decisions and strategic business moves."
+]
+}
+ 
+    ]
+ }
+ 
